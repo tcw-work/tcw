@@ -1,0 +1,25 @@
+.f-wrap {
+  width: 100%;
+}
+
+b.bold {
+  font-weight: bold;
+}
+
+.is-pc {
+  display: block;
+}
+
+.is-sp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .is-pc {
+    display: none;
+  }
+  .is-sp {
+    display: block;
+  }
+}
+/*# sourceMappingURL=f-base.css.map */
