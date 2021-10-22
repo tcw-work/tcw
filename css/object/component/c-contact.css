@@ -1,0 +1,20 @@
+.c-contact {
+  margin-bottom: 50px;
+  background-color: #4c4c4c;
+}
+
+.c-contact .c-contact_inner {
+  padding: 60px 0px 50px 0px;
+}
+
+.c-contact .c-contact_inner p.des {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.c-contact .c-btn {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=c-contact.css.map */

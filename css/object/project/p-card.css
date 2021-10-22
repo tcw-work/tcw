@@ -1,0 +1,9 @@
+.c-card .c-card_inner .c-topic .c-topic .c-topic_inner h2 {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.c-card .c-card_inner .c-topic .c-topic .c-topic_inner h2::after {
+  content: "";
+}
+/*# sourceMappingURL=p-card.css.map */

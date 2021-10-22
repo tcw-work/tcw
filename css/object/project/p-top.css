@@ -1,0 +1,178 @@
+.p_top {
+  margin-top: 40px;
+}
+
+.p_top .anchor {
+  max-width: 800px;
+  width: 100%;
+  margin: 80px auto;
+}
+
+.p_top .anchor ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.p_top .anchor ul li {
+  display: block;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+.p_top .anchor ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 150px;
+  width: 100%;
+  display: block;
+  position: relative;
+  padding: 5px 0px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.p_top .anchor ul li a::before {
+  content: '';
+  background-image: url(../image/arrow.gif);
+  background-size: cover;
+  display: block;
+  width: 24px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  -webkit-transform: translate(-14%, -18%);
+  transform: translate(-14%, -18%);
+}
+
+.p_top .anchor ul li a::after {
+  content: '';
+  background-image: url(../image/arrow02.gif);
+  background-size: cover;
+  display: block;
+  width: 24px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate(9%, -89%);
+  transform: translate(9%, -89%);
+}
+
+.p_top .introduction {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.p_top .introduction .intro_inner {
+  background: url(../image/intro.png) 0px 48px no-repeat;
+  margin-left: auto;
+  background-size: cover;
+  display: block;
+  max-width: 893px;
+  width: 100%;
+  height: 285px;
+}
+
+.p_top .introduction .intro_inner dl {
+  margin-left: -107px;
+}
+
+.p_top .introduction .intro_inner dl dt {
+  font-size: 62px;
+}
+
+.p_top .introduction .intro_inner dl dd {
+  font-size: 36px;
+}
+
+.p_top #about {
+  width: 100%;
+  background-color: #494949;
+  margin-top: 120px;
+  height: 100%;
+  position: relative;
+  background-image: url(https://saruwakakun.com/wp-content/uploads/2017/07/img.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.p_top #about .about_inner {
+  max-width: 755px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 70px 0px 160px 0px;
+}
+
+.p_top #about .about_inner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.p_top #about .about_inner p {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 55px;
+}
+
+.p_top #t_content {
+  max-width: 800px;
+  width: 100%;
+  margin: 100px auto;
+}
+
+.p_top #t_content .t_c_block h2 {
+  font-size: 32px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.p_top #t_content .t_c_block h2::before {
+  content: "";
+  width: 8px;
+  height: 50px;
+  background-color: #494949;
+  display: block;
+  margin-right: 20px;
+}
+
+.p_top #t_content .t_c_block .t_c_inner {
+  position: relative;
+}
+
+.p_top #t_content .t_c_block .t_c_inner .t_c_img {
+  max-width: 447px;
+  width: 100%;
+}
+
+.p_top #t_content .t_c_block .t_c_inner .t_c_des {
+  max-width: 450px;
+  width: 100%;
+  background-color: #494949;
+  padding: 25px 20px;
+  position: absolute;
+  top: 80px;
+  left: 350px;
+}
+
+.p_top #t_content .t_c_block .t_c_inner .t_c_des p {
+  color: #fff;
+}
+
+.p_top #t_content .t_c_block .t_c_inner .t_c_des p:not(:last-child) {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=p-top.css.map */

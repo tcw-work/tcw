@@ -1,0 +1,65 @@
+.c-btn {
+  max-width: 166px;
+  width: 100%;
+  text-align: center;
+  margin-right: auto;
+}
+
+.c-btn p {
+  font-size: 18px;
+}
+
+.c-btn p a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #418875), to(#0d4739));
+  background: linear-gradient(to right, #418875 25%, #0d4739 100%);
+  max-width: 166px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.c-btn p a::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: -60px;
+  z-index: -1;
+  border-right: 60px solid;
+  border-bottom: 60px solid #298b70;
+  background: -webkit-gradient(linear, left top, right top, to(#fff));
+  background: linear-gradient(to right, #fff 100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform ease .3s;
+  transition: -webkit-transform ease .3s;
+  transition: transform ease .3s;
+  transition: transform ease .3s, -webkit-transform ease .3s;
+  border-image-slice: 1;
+}
+
+.c-btn p a:hover {
+  color: #fff;
+}
+
+.c-btn p a:hover::before {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+  .c-btn p a {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=c-button.css.map */

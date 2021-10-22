@@ -1,0 +1,82 @@
+.p-p_top {
+    #p-subject {
+        ul.word-deco {
+            position: relative;
+            li {
+                &:first-child {
+                    background: no-repeat url(../image/side-word01.png) 0px 0px;
+                    display: block;
+                    width: 84px;
+                    height: 486px;
+                    top: 123px;
+                    position: absolute;
+                }
+                &:nth-of-type(2) {
+                    background: no-repeat url(../image/side-word02.png) 0px 0px;
+                    display: block;
+                    width: 65px;
+                    height: 305px;
+                    top: 660px;
+                    right: 0;
+                    position: absolute;
+                }
+                &:last-child {
+                    background: no-repeat url(../image/side-word03.png) 0px 0px;
+                    display: block;
+                    width: 85px;
+                    height: 364px;
+                    top: 1196px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+    .p-p_top {
+        #p-subject {
+            .p-s_add {
+                padding: 0px 45px;
+            }
+            ul.word-deco {
+                li:first-child {
+                    // display: none;
+                    background-size: 4vw;
+                }
+                li:nth-of-type(2) {
+                    // display: none;
+                    background: no-repeat url(../image/side-word02.png) 16px 0px;
+                    background-size: 4vw;
+                    top: 726px;
+                }
+                li:last-child {
+                    // display: none;
+                    background-size: 4vw;
+                    top: 1260px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .p-p_top {
+        #p-subject {
+            .p-s_add {
+                padding: 0px 0px;
+            }
+            ul.word-deco {
+                li:first-child {
+                    display: none;
+                }
+                li:nth-of-type(2) {
+                    display: none;
+                }
+                li:last-child {
+                    display: none;
+                }
+            }
+        }
+    }
+}
