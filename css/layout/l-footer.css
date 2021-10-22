@@ -1,0 +1,28 @@
+.footer {
+  margin-bottom: 55px;
+}
+
+.footer .footer_inner ul {
+  max-width: 385px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.footer .footer_inner ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer .footer_inner .copy_right {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=l-footer.css.map */

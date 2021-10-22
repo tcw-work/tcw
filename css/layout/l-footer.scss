@@ -1,0 +1,99 @@
+.footer {
+    position: relative;
+    padding-bottom: 55px;
+    background-color: $c_glay;
+    border-top: 2px solid #fff;
+    padding-top: 50px;
+    .return {
+        -webkit-animation: instance 0.5s ease 0.9s 1 forwards;
+        animation: instance 0.5s ease 0.9s 1 forwards;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+        opacity: 0;
+    }
+    .return_fixed {
+        opacity: 0.5;
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: #343434;
+        right: 30px;
+        position: fixed;
+        .return_in {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            position: relative;
+            height: 50px;
+            width: 50px;
+            &::before {
+                content: "";
+                width: 15px;
+                height: 15px;
+                display: block;
+                border-top: solid 2px;
+                border-right: solid 2px;
+                transform: rotate(-45deg);
+                position: absolute;
+                top: 10px;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .footer_inner {
+        ul {
+            max-width: 385px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            margin-bottom: 35px;
+            li {
+                font-size: 16px;
+                font-weight: bold;
+                a {
+                    overflow: hidden;
+                    background: -moz-linear-gradient(to left, #fff 50%, #a7d5c9 50%, #048e67 100%,);
+                    background: -webkit-linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67 100%,);
+                    background: linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67 100%,);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-size: 200%;
+                    background-position: 0%;
+                    transition: background-position 200ms ease;
+                    &:hover {
+                        background-position: -100%;
+                    }
+                }
+            }
+        }
+        .copy_right {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 55px 10px 50px 10px;
+        .return_fixed {
+            right: 10px;
+        }
+    }
+}

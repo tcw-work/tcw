@@ -350,7 +350,6 @@ h2.c-head_2::after {
   border-image-slice: 1;
   width: 28%;
   display: block;
-  height: 2px;
   margin: 10px auto;
 }
 
@@ -380,6 +379,11 @@ h3.c-head_3::before {
   h2.c-head_2 {
     font-size: 32px;
     margin-bottom: 40px;
+  }
+  h2.c-head_2::after {
+    content: "";
+    border-bottom: 1px solid;
+    border-image-slice: 1;
   }
   h3.c-head_3 {
     font-size: 24px;
@@ -755,6 +759,115 @@ b.bold {
   margin-top: 6px;
 }
 
+.p-p_top .p-top_mv .m-scroll {
+  width: 100px;
+  height: 120px;
+  margin: 100px auto 0px;
+}
+
+.p-p_top .p-top_mv .m-scroll .m-s-in {
+  background-color: #343434;
+  background-color: rgba(52, 52, 52, 0);
+  -webkit-transition: background-color 1s linear;
+  transition: background-color 1s linear;
+  height: 48px;
+}
+
+.p-p_top .p-top_mv .m-scroll .m-s-in:hover {
+  background-color: rgba(52, 52, 52, 0.7);
+}
+
+.p-p_top .p-top_mv .m-scroll p {
+  font-size: 26px;
+  margin-left: inherit;
+}
+
+.p-p_top .p-top_mv .m-scroll .m-arrow {
+  position: relative;
+  line-height: 52px;
+  height: 52px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #fff), color-stop(50%, #a7d5c9), to(#048e67));
+  background: linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67);
+  background-size: 250%;
+  background-position: 0%;
+  -webkit-transition: background-position 600ms ease;
+  transition: background-position 600ms ease;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-p_top .p-top_mv .m-scroll .m-arrow::before {
+  -webkit-animation: arrow 1.8s infinite;
+          animation: arrow 1.8s infinite;
+  border: solid #FECA20;
+  border-width: 0 0 3px 3px;
+  content: "";
+  margin: auto;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 25px;
+  height: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  top: 50%;
+  left: 35%;
+}
+
+.p-p_top .p-top_mv .m-scroll .m-arrow:hover {
+  text-decoration: none;
+  background-position: -90%;
+}
+
+.p-p_top .p-top_mv .m-scroll .m-arrow:hover::before {
+  border: solid #ccc;
+  border-width: 0 0 5px 5px;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+            transform: rotate(-45deg) translate(0, 0);
+  }
+  60% {
+    -webkit-transform: rotate(-45deg) translate(-50px, 50px);
+            transform: rotate(-45deg) translate(-50px, 50px);
+  }
+  0%,
+  60%,
+  100% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
+@keyframes arrow {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+            transform: rotate(-45deg) translate(0, 0);
+  }
+  60% {
+    -webkit-transform: rotate(-45deg) translate(-50px, 50px);
+            transform: rotate(-45deg) translate(-50px, 50px);
+  }
+  0%,
+  60%,
+  100% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
 .p-p_top .p-anchor {
   max-width: 800px;
   width: 100%;
@@ -997,6 +1110,53 @@ b.bold {
   .p-p_top .p-top_mv p.p-top_s_ttl01 {
     margin-top: 6px;
   }
+  .p-p_top .p-top_mv .m-scroll {
+    margin: 70px auto 0px;
+  }
+  .p-p_top .p-top_mv .m-scroll p {
+    font-size: 18px;
+  }
+  .p-p_top .p-top_mv .m-scroll .m-arrow::before {
+    width: 15px;
+    height: 15px;
+    left: 39%;
+  }
+  @-webkit-keyframes arrow {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+              transform: rotate(-45deg) translate(0, 0);
+    }
+    60% {
+      -webkit-transform: rotate(-45deg) translate(-30px, 30px);
+              transform: rotate(-45deg) translate(-30px, 30px);
+    }
+    0%,
+    60%,
+    100% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+  }
+  @keyframes arrow {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+              transform: rotate(-45deg) translate(0, 0);
+    }
+    60% {
+      -webkit-transform: rotate(-45deg) translate(-30px, 30px);
+              transform: rotate(-45deg) translate(-30px, 30px);
+    }
+    0%,
+    60%,
+    100% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+  }
   .p-p_top .p-anchor {
     max-width: 800px;
     width: 100%;
@@ -1070,9 +1230,6 @@ b.bold {
 }
 
 @media screen and (max-width: 515px) {
-  #particles-js {
-    min-height: 736px;
-  }
   .p-p_top .p-top_mv h2.p-top_ttl {
     font-size: 33px;
   }

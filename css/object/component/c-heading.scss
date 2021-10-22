@@ -18,7 +18,7 @@ h2.c-head_2 {
         // width: 40px;
         width: 28%;
         display: block;
-        height: 2px;
+        // height: 2px;
         margin: 10px auto;
     }
 }
@@ -44,6 +44,11 @@ h3.c-head_3 {
     h2.c-head_2 {
         font-size: 32px;
         margin-bottom: 40px;
+        &::after {
+            content: "";
+            border-bottom: 1px solid;
+            border-image-slice: 1;
+        }
     }
     h3.c-head_3 {
         font-size: 24px;

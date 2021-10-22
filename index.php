@@ -103,6 +103,7 @@
                             <h2 class="p-top_ttl">Web制作の技術と価値</h2>
                             <p class="p-top_s_ttl01">無限大の可能性を秘めたサイト制作と</p>
                             <p class="p-top_s_ttl02">新しい技術を追い求めるエンジニアリング</p>
+<!--
                             <div class="p-anchor">
                                 <ul>
                                     <li><a href="#p-about" v-smooth-scroll="{ duration: 1200, offset: 0 }">About</a></li>
@@ -111,23 +112,18 @@
                                     <li><a href="#c-contact" v-smooth-scroll="{ duration: 1200, offset: 0 }">Contact</a></li>
                                 </ul>
                             </div>
+-->
+                            <div class="m-scroll">
+                                <div class="m-s-in">
+                                    <a href="#p-about" v-smooth-scroll="{ duration: 1200, offset: 0 }" class="m-arrow">
+                                        <p>Scroll</p>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div> <!-- stats - count particles -->
                     <!--        アニメーションエフェクト実験-->
                    
-
-                    
-<!--
-                    <div class="p-introduction">
-                        <div class="p-intro_inner">
-                            <dl>
-                                <dt>Web制作の技術と価値</dt>
-                                <dd>無限大の可能性を秘めたサイト制作と</dd>
-                                <dd>新しい技術を追い求めるエンジニアリング</dd>
-                            </dl>
-                        </div>
-                    </div>
--->
                     <div id="p-about">
                         <div class="p-about_inner">
                             <h2 class="c-head_2">ABOUT</h2>

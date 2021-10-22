@@ -1,0 +1,352 @@
+// ↓topのナブ設定
+.top-only {
+    .drawer-hamburger {
+        .drawer-hamburger-icon {
+            background-color: #fff;
+            &::before {
+                background-color: #fff;
+            }
+            &::after {
+                background-color: #fff;
+            }
+        }
+        .is-fixed {
+            background-color: #343434;
+            &::before {
+                background-color: #343434;
+            }
+            &::after {
+                background-color: #343434;
+            }
+        }
+    }
+}
+.drawer-open {
+    .drawer-hamburger {
+        .drawer-hamburger-icon {
+            background-color: #343434;
+        }
+    }
+}
+
+// ↓共通のナブ設定
+header {
+    // position: fixed;
+    // width: 100%;
+    position: absolute;
+    .drawer-nav {
+        background-color: #343434;
+    }
+    .l-h-top {
+        height: 112px;
+        padding: 30px 37px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        // position: fixed;
+        .l-log {
+            color: #fff;
+            line-height: 1;
+            // position: fixed;
+            a {
+                display: flex;
+                vertical-align: bottom;
+                img {
+                    // width: 80%;
+                    width: 111px;
+                }
+            }
+        }
+        button {
+            // position: inherit;
+            // top: 5px;
+        }
+    }
+    .drawer-hamburger {
+        position: fixed;
+        padding: 0px;
+        width: 40px;
+        // height: 37px;
+        padding: inherit;
+        .drawer-hamburger-icon {
+            height: 4px;
+            &::before {
+                top: -12px;
+                height: 4px;
+                background-color: $c_glay;
+            }
+            &::after {
+                top: 12px;
+                height: 4px;
+                background-color: $c_glay;
+            }
+        }
+        .drawer-hamburger-icon {
+            margin-top: 12px;
+        }
+    }
+}
+
+.drawer--top .drawer-hamburger,
+.drawer--top.drawer-open .drawer-hamburger {
+    right: 0px;
+    top: 13px;
+}
+
+// ↓ドロワーOPEN時のナブ
+.drawer-open {
+    .drawer-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    header {
+        .l-h-top {
+            .drawer-hamburger {
+                .drawer-hamburger-icon {
+                    &::before {
+                        top: 0px;
+                        background-color: #fff;
+                    }
+                    &::after {
+                        top: 0px;
+                        background-color: #fff;
+                    }
+                }
+                .drawer-hamburger-icon {
+                    margin-top: 9px;
+                }
+            }
+        }
+
+        .drawer-nav {
+            background-color: $c_glay;
+            .log {
+                padding: 30px 37px;
+                a {
+                    display: flex;
+                    vertical-align: bottom;
+                    img {
+                        // width: 80%;
+                        // max-width: 93px;
+                        width: 111px;
+                    }
+                }
+            }
+            .drawer-in {
+                max-width: 1200px;
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+            }
+            ul.drawer-menu {
+                padding: 35px 20px;
+                box-sizing: border-box;
+                max-width: 495px;
+                width: 31%;
+                margin: 0 auto;
+                li {
+                    .drawer-brand {
+                        // ホバー前の外観
+                        position: relative;
+                        display: inline-block;
+                        text-decoration: none;
+                        outline: none;
+                        // ↓文字の外観
+                        background: -webkit-linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67);
+                        background: linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-size: 200%;
+                        background-position: 0%;
+                        transition: background-position 400ms ease;
+                        padding: 0px 0px 0px 3px;
+                        font-size: 34px;
+                        margin-bottom: 24px;
+                        position: relative;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        -webkit-transform-origin: left;
+                        transform-origin: left;
+                        display: block;
+                        width: 100%;
+                        max-width: 332px;
+                        font-size: 34px;
+                        text-align: left;
+                        font-weight: bold;
+                        &::before {
+                            content: "";
+                            /*position: absolute;でbackgroundをボーダーのように配置*/
+                            position: absolute;
+                            z-index: 1;
+                            bottom: 0;
+                            left: 0;
+                            /*hover前の線の形状*/
+                            background: #fff;
+                            width: 100%;
+                            height: 2px;
+                            /*アニメーションの指定*/
+                            transition: all 0.3s ease-in-out;
+                        }
+
+                        &::after {
+                            content: "";
+                            /*position: absolute;でbackgroundをボーダーのように配置*/
+                            position: absolute;
+                            z-index: 1;
+                            bottom: 0;
+                            left: 0;
+                            /*hover前の線の形状*/
+                            height: 2px;
+                            /*アニメーションの指定*/
+                            transition: all 0.3s ease-in-out;
+                            width: 0;
+                            /*hover時に伸びる線の形状（現在はwidth:0で隠れてる）*/
+                            // beforeの上にwidth:0のafterが乗っかてるイメージ
+                            background: -moz-linear-gradient(to right, #a7d5c9 0%, #048e67 100%);
+                            background: -webkit-linear-gradient(to right, from(#a7d5c9), to(#048e67));
+                            background: linear-gradient(to right, #a7d5c9 0%, #048e67 100%);
+                        }
+
+                        &:hover {
+                            &::after {
+                                /*afterの下線がhover時に100%に伸びる*/
+                                width: 100%;
+                            }
+                            // 文字のアニメーション
+                            background-position: -100%;
+                        }
+                    }
+
+                    a.drawer-menu-item {
+                        color: #fff;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        // border-bottom: 1px solid #fff;
+                        display: flex;
+                        align-items: center;
+                        padding: 21px 0px;
+                        width: 96%;
+                        margin: 0 auto;
+
+                        overflow: hidden;
+                        background: -moz-linear-gradient(to left, #fff 50%, #a7d5c9 50%, #048e67);
+                        background: -webkit-linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67);
+                        background: linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-size: 200%;
+                        background-position: 0%;
+                        transition: background-position 500ms ease;
+                        &::before {
+                            content: "";
+                            display: block;
+                            width: 4px;
+                            height: 25px;
+                            margin-right: 11px;
+                            background-color: #fff;
+                        }
+                        &:hover {
+                            background-position: -100%;
+                            &::before {
+                                background: -moz-linear-gradient(to right, #418875 25%, #0d4739 100%);
+                                background: -webkit-linear-gradient(to right, #418875 25%, #0d4739 100%);
+                                background: linear-gradient(to right, #418875 25%, #0d4739 100%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.p-p_under {
+    header {
+        position: inherit;
+        .l-h-top {
+            .l-log {
+                // background-color: $c_glay;
+            }
+        }
+        // .drawer-hamburger {
+        //         width: 40px;
+        //         padding: inherit;
+        //         .drawer-hamburger-icon {
+        //             height: 4px;
+        //         &::before {
+        //             top: -12px;
+        //             height: 4px;
+        //         }
+        //         &::after {
+        //             top: 12px;
+        //             height: 4px;
+        //         }
+        //     }
+        // }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        .l-h-top {
+            padding: 25px 15px;
+            height: auto;
+            .l-log {
+                a {
+                    display: flex;
+                    vertical-align: bottom;
+                    img {
+                        // width: 50%;
+                        width: 70px;
+                    }
+                }
+            }
+        }
+    }
+    .drawer-open {
+        header {
+            .drawer-nav {
+                overflow: auto;
+                .log {
+                    padding: 25px 15px;
+                    a {
+                        display: flex;
+                        vertical-align: bottom;
+                        img {
+                            // width: 50%;
+                            // max-width: 58.5px;
+                            width: 70px;
+                        }
+                    }
+                }
+                ul.drawer-menu {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .drawer--top .drawer-hamburger,
+    .drawer--top.drawer-open .drawer-hamburger {
+        top: 2px;
+    }
+    .drawer--top .drawer-hamburger,
+    .drawer--top.drawer-close .drawer-hamburger {
+        top: -1px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .drawer-open {
+        header {
+            .drawer-nav {
+                .drawer-in {
+                    display: block;
+                }
+            }
+        }
+    }
+}
