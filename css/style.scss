@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import "object/utility/u-color";
+@import "layout/l-header.scss";
+@import "object/component/c-heading";
+@import "fundations/f-base.scss";
+@import "layout/l-footer.scss";
+@import "object/project/p-works";
+@import "object/project/p-top";
+@import "object/project/p-card";
+@import "object/project/p-portfolio";
+@import "object/project/p-service";
+@import "object/project/p-price";
+@import "object/project/p-contact-page";
+@import "object/component/c-others";
+@import "object/component/c_vertical_article.scss";
+@import "object/component/c-button";
+@import "object/component/c-contact";
+@import "object/component/c-sideword";
+
+
+
+
+
+html body {
+    /*    letter-spacing: 0.1em;*/
+        font-family: 'Noto Serif JP', serif;
+        line-height: 1.6;
+        font-weight: 700;
+        -webkit-text-size-adjust: 100%;
+    }
+
