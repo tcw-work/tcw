@@ -122,11 +122,25 @@
         max-width: 800px;
         width: 100%;
         margin: 50px auto;
-        span {
+        .icons {
             font-weight: bold;
-            margin-top: 15px;
+            margin-top: 30px;
             display: block;
             line-height: 1;
+            .icon-block {
+                &:not(:first-child) {
+                    margin-top: 20px;
+                }
+            }
+            .c_icon {
+                margin-top: 0px;
+                display: flex;
+                align-items: center;
+                img {
+                    max-width: 30px;
+                    margin-right: 25px;
+                }
+            }
         }
     }
     .contact-finish {
@@ -235,6 +249,7 @@
 
 @media screen and (max-width: 768px) {
     #p-contact {
+        margin-bottom: 100px;
         .p-c_sub_ttl {
             ul {
                 li {

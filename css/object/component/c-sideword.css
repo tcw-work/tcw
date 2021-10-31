@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.p-p_top #p-subject ul.word-deco li {
+  opacity: 0.8;
+}
+
 .p-p_top #p-subject ul.word-deco li:first-child {
   background: no-repeat url(../image/side-word01.png) 0px 0px;
   display: block;

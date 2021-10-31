@@ -15,12 +15,12 @@
     <div class="footer_inner">
         <ul>
             <li><a href="/LPE/自主制作/コーディング/">Top</a></li>
-            <li><a href="/LPE/自主制作/コーディング/works.php">Works</a></li>
-            <li><a href="/LPE/自主制作/コーディング/service.php">Service</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="/LPE/自主制作/コーディング/contact.php">Contact</a></li>
+            <li><a href="/LPE/自主制作/コーディング/works/">Works</a></li>
+            <li><a href="/LPE/自主制作/コーディング/service/">Service</a></li>
+            <li class="prepare">media</li>
+            <li><a href="/LPE/自主制作/コーディング/contact/">Contact</a></li>
         </ul>
-        <p class="copy_right">copyright@test-site.com</p>
+        <p class="copy_right">Copyright (C) t-creative-works All rights reserved.</p>
     </div>
 </footer>
 <!--
@@ -49,22 +49,13 @@ header>div.log>a^button.hamburger-button+nav.hamburger-nav>ul>li.n-item-$*3>a{�
 
 <script>
 
-    $(function () {
-        if (window.matchMedia( "(min-width: 768px)" ).matches) {
-            var $body = $('.drawer-hamburger-icon'),
-                $navTypeA = $('#p-about'),
-                navTypeAOffsetTop = $navTypeA.offset().top;
-
-
-//            $(window).on('scroll', function () {
-//                if($(this).scrollTop() > navTypeAOffsetTop) {
-//                    $body.addClass('is-fixed');
-//                } else {
-//                    $body.removeClass('is-fixed');
-//                }
-//            });
-        };
-    });
+//    $(function () {
+//        if (window.matchMedia( "(min-width: 768px)" ).matches) {
+//            var $body = $('.drawer-hamburger-icon'),
+//                $navTypeA = $('#p-about'),
+//                navTypeAOffsetTop = $navTypeA.offset().top;
+//        };
+//    });
     
 //        $(function(){
 //        $('a[href^="#"]').click(function(){

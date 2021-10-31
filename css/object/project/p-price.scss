@@ -43,6 +43,18 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .p-s_price {
+        .p-s_p_block {
+            table {
+                tr {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 500px) {
     .p-s_price {
         .p-s_p_block {

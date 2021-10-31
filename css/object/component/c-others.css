@@ -36,6 +36,9 @@
 .p-others_inner .p-others_01 a p img {
   max-width: 316px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .p-others_inner .p-others_01 a p span {
@@ -101,7 +104,7 @@
   .p-others_inner .p-others_01 {
     width: 49%;
   }
-  .p-others_inner .p-others_01:nth-of-type(-n + 3) {
+  .p-others_inner .p-others_01:nth-of-type(-n + 4) {
     margin-bottom: 15px;
   }
 }

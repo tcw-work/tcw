@@ -1,5 +1,17 @@
 // ↓topのナブ設定
 .top-only {
+    .l-h-top {
+        .l-log {
+            a {
+                color: #fff;
+                background: -webkit-linear-gradient(to right, #fff 100%);
+                background: linear-gradient(to right, #fff 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
     .drawer-hamburger {
         .drawer-hamburger-icon {
             background-color: #fff;
@@ -51,8 +63,33 @@ header {
             line-height: 1;
             // position: fixed;
             a {
+                // display: flex;
+                // vertical-align: bottom;
+                // color: #fff;
+                // font-weight: bold;
+                // font-size: 46px;
+                // text-decoration: none;
                 display: flex;
                 vertical-align: bottom;
+                color: #fff;
+                font-weight: bold;
+                font-size: 46px;
+                text-decoration: none;
+                max-width: 113px;
+                width: 100%;
+                line-height: 1;
+                // ↓アニメーション
+                background: -webkit-linear-gradient(to right, #343434 50%, #a7d5c9 50%, #048e67);
+                background: linear-gradient(to right, #343434 50%, #a7d5c9 50%, #048e67);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200%;
+                background-position: 0%;
+                transition: background-position 400ms ease;
+                &:hover {
+                    background-position: -100%;
+                }
                 img {
                     // width: 80%;
                     width: 111px;
@@ -92,7 +129,7 @@ header {
 .drawer--top .drawer-hamburger,
 .drawer--top.drawer-open .drawer-hamburger {
     right: 0px;
-    top: 13px;
+    top: 16px;
 }
 
 // ↓ドロワーOPEN時のナブ
@@ -126,6 +163,25 @@ header {
                 a {
                     display: flex;
                     vertical-align: bottom;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 46px;
+                    text-decoration: none;
+                    max-width: 113px;
+                    width: 100%;
+                    line-height: 1;
+                    // ↓アニメーション
+                    background: -webkit-linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67);
+                    background: linear-gradient(to right, #fff 50%, #a7d5c9 50%, #048e67);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-size: 200%;
+                    background-position: 0%;
+                    transition: background-position 400ms ease;
+                    &:hover {
+                        background-position: -100%;
+                    }
                     img {
                         // width: 80%;
                         // max-width: 93px;
@@ -270,6 +326,9 @@ header {
         .l-h-top {
             .l-log {
                 // background-color: $c_glay;
+                a {
+                    color: #343434;
+                }
             }
         }
         // .drawer-hamburger {
@@ -295,10 +354,13 @@ header {
         .l-h-top {
             padding: 25px 15px;
             height: auto;
+            box-sizing: border-box;
             .l-log {
                 a {
                     display: flex;
                     vertical-align: bottom;
+                    line-height: 1;
+                    font-size: 38px;
                     img {
                         // width: 50%;
                         width: 70px;
@@ -316,6 +378,8 @@ header {
                     a {
                         display: flex;
                         vertical-align: bottom;
+                        line-height: 1;
+                        font-size: 38px;
                         img {
                             // width: 50%;
                             // max-width: 58.5px;
@@ -327,15 +391,24 @@ header {
                     width: 100%;
                 }
             }
+            .l-h-top {
+                .drawer-hamburger {
+                    .drawer-hamburger-icon {
+                        margin-top: 22px;
+                    }
+                }
+            }
         }
     }
+
+
     .drawer--top .drawer-hamburger,
     .drawer--top.drawer-open .drawer-hamburger {
-        top: 2px;
+        top: -3px;
     }
     .drawer--top .drawer-hamburger,
     .drawer--top.drawer-close .drawer-hamburger {
-        top: -1px;
+        top: 6px;
     }
 }
 

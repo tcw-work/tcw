@@ -3,6 +3,7 @@
         ul.word-deco {
             position: relative;
             li {
+                opacity: 0.8;
                 &:first-child {
                     background: no-repeat url(../image/side-word01.png) 0px 0px;
                     display: block;

@@ -78,11 +78,19 @@
                     }
                 }
             }
+            li.prepare {
+                background: -moz-linear-gradient(to left, #fff 100%);
+                background: -webkit-linear-gradient(to left, #fff 100%);
+                background: linear-gradient(to left, #fff 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
         }
         .copy_right {
             text-align: center;
             font-size: 14px;
-            font-weight: bold;
+            font-weight: normal;
             text-decoration: none;
             color: #fff;
         }

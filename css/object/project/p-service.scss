@@ -7,7 +7,7 @@
     box-sizing: border-box;
     h3 {
         font-size: 26px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .p-service_pic {
         margin-bottom: 70px;
@@ -18,7 +18,7 @@
     }
 
     .p-s_block {
-        margin-top: 180px;
+        margin-top: 160px;
     }
 
     .p-s_about {
@@ -44,6 +44,8 @@
                 border: 3px solid #343434;
                 margin-right: 50px;
                 margin-bottom: 0px;
+                background: no-repeat url(../image/person.png) -1px 7px;
+                background-size: 100%;
             }
             p.p-comment_right {
                 padding: 20px 25px;
@@ -108,6 +110,16 @@
                     a {
                         text-decoration: none;
                         color: #000000;
+                        &:hover {
+                            dt {
+                                span {
+                                    opacity: 1;
+                                    &::before {
+                                        transform: translateX(0);
+                                    }
+                                }
+                            }
+                        }
                     }
                     dt {
                         margin-bottom: 20px;
@@ -121,7 +133,13 @@
                         span {
                             max-width: 145px;
                             width: 100%;
-                            background-color: #343434;
+                            // background-color: #343434;
+                            background: -moz-linear-gradient(to right, #343434 25%, #343434 100%);
+                            background: -webkit-linear-gradient(to right, #343434 25%, #343434 100%);
+                            background: linear-gradient(to right, #343434 25%, #343434 100%);
+                            transition:0.5s;
+                            overflow: hidden;
+                            opacity: 0.9;
                             color: #fff;
                             text-align: center;
                             padding: 15px 10px;
@@ -132,8 +150,24 @@
                             -webkit-transform: translate(-50%, -50%);
                             transform: translate(-50%, -50%);
                             padding: 10px 15px;
-                            background-color: rgba(52, 52, 52, 0.8);
                             box-sizing: border-box;
+                            &::before {
+                                content: "";
+                                width: 100%;
+                                position: absolute;
+                                top: 0;
+                                right: -60px;
+                                z-index: -1;
+                                border-right: 60px solid;
+                                border-bottom: 60px solid;
+                                border-image: -moz-linear-gradient(to right, #418875 25%, #0d4739 100%);
+                                border-image: -webkit-linear-gradient(to right, #418875 25%, #0d4739 100%);
+                                border-image: linear-gradient(to right, #418875 25%, #0d4739 100%);
+                                transform: translateX(-100%);
+                                transition: transform ease .3s;
+                                // border-image: linear-gradient(to right, #01b385 25%, #0d4739 100%);
+                                border-image-slice: 1;
+                            }
                         }
                     }
                     dd {
@@ -219,13 +253,24 @@
 }
 
 @media screen and (max-width: 768px) {
+    h2.c-head_2 {
+        font-size: 28px;
+    }
+    #p-service h3 {
+        font-size: 26px;
+    }
+
     #p-service {
+        margin-bottom: 100px;
         .p-s_about {
             .p-comment {
                 p.p-comment_right {
                     font-size: 16px;
                 }
             }
+        }
+        .p-s_block {
+            margin-top: 80px;
         }
         .p-s_request {
             .p-s_r_box {

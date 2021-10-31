@@ -23,7 +23,7 @@
         .m-scroll {
             width: 100px;
             height: 120px;
-            margin: 100px auto 0px;
+            margin: 160px auto 0px;
             .m-s-in {
                 background-color: #343434;
                 background-color: rgba(52, 52, 52, 0);
@@ -178,7 +178,7 @@
     #p-about {
         background: no-repeat url(../image/about-bg.png) 0px 25px;
         background-size: cover;
-        padding: 180px 0px;
+        padding: 160px 0px;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.2);
         background-blend-mode: lighten;
@@ -333,6 +333,9 @@
 
 @media screen and (max-width: 768px) {
     .p-p_top {
+        #p-subject {
+            margin-bottom: 100px;
+        }
         .p-top_mv {
             padding-left: 35px;
             padding: 167px 15px 0px 15px;
