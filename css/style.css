@@ -67,9 +67,6 @@ header .l-h-top .l-log {
 }
 
 header .l-h-top .l-log a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   vertical-align: bottom;
   color: #fff;
   font-weight: bold;
@@ -157,9 +154,6 @@ header .drawer-hamburger .drawer-hamburger-icon {
 }
 
 .drawer-open header .drawer-nav .log a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   vertical-align: bottom;
   color: #fff;
   font-weight: bold;
@@ -285,9 +279,7 @@ header .drawer-hamburger .drawer-hamburger-icon {
   color: #fff;
   padding-left: 0px;
   padding-right: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: table;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -306,12 +298,15 @@ header .drawer-hamburger .drawer-hamburger-icon {
   transition: background-position 500ms ease;
 }
 
+.drawer-open header .drawer-nav ul.drawer-menu li a.drawer-menu-item span {
+  margin-left: 11px;
+}
+
 .drawer-open header .drawer-nav ul.drawer-menu li a.drawer-menu-item::before {
   content: "";
-  display: block;
+  display: table-cell;
   width: 4px;
   height: 25px;
-  margin-right: 11px;
   background-color: #fff;
 }
 
@@ -340,9 +335,6 @@ header .drawer-hamburger .drawer-hamburger-icon {
             box-sizing: border-box;
   }
   header .l-h-top .l-log a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     vertical-align: bottom;
     line-height: 1;
     font-size: 38px;
@@ -357,9 +349,6 @@ header .drawer-hamburger .drawer-hamburger-icon {
     padding: 25px 15px;
   }
   .drawer-open header .drawer-nav .log a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     vertical-align: bottom;
     line-height: 1;
     font-size: 38px;

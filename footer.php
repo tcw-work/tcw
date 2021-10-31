@@ -2,7 +2,7 @@
     <div class="c-contact_inner">
         <p class="des">Webサイト・ホームページの制作、業務委託等のご相談は<br class="is-sp">下記からお問い合わせください</p>
         <div class="c-btn">
-            <p><a href="/LPE/自主制作/コーディング/contact.php">お問い合わせ</a></p>
+            <p><a href="/LPE/自主制作/コーディング/contact/">お問い合わせ</a></p>
         </div>
     </div>
 </div>

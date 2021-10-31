@@ -108,10 +108,10 @@ if(empty ($_POST['c_name']) or empty ($_POST['c_address']) or empty ($_POST['c_c
         <meta property="”fb:app_id”" content="”App-ID(15文字の半角数字)”">
 
         <!--    favicon-->
-        <link rel="shortcut icon" href="image/favicon.gif" type="image/gif">
-        <link rel="icon" href="image/favicon.gif" type="image/gif">
+        <link rel="shortcut icon" href="../image/favicon.gif" type="image/gif">
+        <link rel="icon" href="../image/favicon.gif" type="image/gif">
         <!--    スマホ用アイコン画像-->
-        <link rel="apple-touch-icon-precomposed" href="image/touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" href="../image/touch-icon.png">
         <!--    電話番号やメールアドレスの変換設定防止タグ-->
         <meta name="format-detection" content="email=no,telephone=no,address=no">
     </head>
