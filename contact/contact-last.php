@@ -163,8 +163,9 @@ if(isset ($_POST['c_name']) or isset ($_POST['c_address']) or isset ($_POST['c_c
                         <div class="p-c_address">
                             <p>※もし送信されない場合は、下記の連絡先に直接お問い合わせください。</p>
                             <div class="icons">
-                                <div class="icon-block"><span class="c_icon"><img src="image/icon-mail.png" alt=""><a href="mailto:m.tomizawa@t-creative-works.com">tomizawa@t-creative-works.com</a></span></div>
-                                <div class="icon-block"><span class="c_icon"><img src="image/icon-twitter.png" alt=""><a href="https://twitter.com/tcw_job" target="_blank">Twitter</a></span></div>
+                                <div class="icon-block"><span class="c_icon"><img src="../image/icon-mail.png" alt=""><a href="mailto:m.tomizawa@t-creative-works.com">tomizawa@t-creative-works.com</a></span></div>
+                                <div class="icon-block"><span class="c_icon"><img src="../image/icon-tell.png" alt=""><a href="tel:+81-50-3199-1487">050-3199-1487</a></span></div>
+<!--                                <div class="icon-block"><span class="c_icon"><img src="../image/icon-twitter.png" alt=""><a href="https://twitter.com/tcw_job" target="_blank">Twitter</a></span></div>-->
                             </div>
                         </div>
                     </div>

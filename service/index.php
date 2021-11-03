@@ -204,32 +204,32 @@
                                 <p class="p-others_des">このサイトでは過去に作成した制作物を掲載しております。Web制作のご依頼をご検討中の方は、下記のサイトを参考にしていただけますと幸いです。</p>
                                 <div class="p-others_inner">
                                     <div class="p-others_01">
-                                        <a href="/LPE/自主制作/コーディング/works/detail01.php">
+                                        <a href="/works/detail01.php">
                                             <p><img src="../image/t-cont01.jpg" alt="Magnific-Japan"><span>Magnific-Japan</span></p>
                                         </a>
                                     </div>
                                     <div class="p-others_01">
-                                        <a href="/LPE/自主制作/コーディング/works/detail02.php">
+                                        <a href="/works/detail02.php">
                                             <p><img src="../image/t-cont02.jpg" alt="テンツーケア"><span>テンツーケア</span></p>
                                         </a>
                                     </div>
                                     <div class="p-others_01">
-                                        <a href="/LPE/自主制作/コーディング/works/detail04.php">
+                                        <a href="/works/detail04.php">
                                             <p><img src="../image/t-cont03.jpg" alt="TCW"><span>TCW</span></p>
                                         </a>
                                     </div>
                                     <div class="p-others_01">
-                                        <a href="/LPE/自主制作/コーディング/works/detail03.php">
+                                        <a href="/works/detail03.php">
                                             <p><img src="../image/t-cont04.jpg" alt="Citation"><span>Citation</span></p>
                                         </a>
                                     </div>
                                     <div class="p-others_01">
-                                        <a href="/LPE/自主制作/コーディング/works/test-site/01/">
+                                        <a href="/works/test-site/01/">
                                             <p><img src="../image/other-work01.jpg" alt="Reen"><span>Reen</span></p>
                                         </a>
                                     </div>
                                     <div class="p-others_01">
-                                        <a href="/LPE/自主制作/コーディング/works/test-site/02/">
+                                        <a href="/works/test-site/02/">
                                             <p><img src="../image/other-work02.jpg" alt="Forkio"><span>Forkio</span></p>
                                         </a>
                                     </div>

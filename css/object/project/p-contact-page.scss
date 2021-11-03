@@ -122,26 +122,6 @@
         max-width: 800px;
         width: 100%;
         margin: 50px auto;
-        .icons {
-            font-weight: bold;
-            margin-top: 30px;
-            display: block;
-            line-height: 1;
-            .icon-block {
-                &:not(:first-child) {
-                    margin-top: 20px;
-                }
-            }
-            .c_icon {
-                margin-top: 0px;
-                display: flex;
-                align-items: center;
-                img {
-                    max-width: 30px;
-                    margin-right: 25px;
-                }
-            }
-        }
     }
     .contact-finish {
         text-align: center;
@@ -176,7 +156,6 @@
         color: #e82d2d;
     }
 }
-
 
 .p_confirm {
         .form-block {

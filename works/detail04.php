@@ -155,7 +155,7 @@
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
-                                        <a href="/LPE/自主制作/コーディング/works/detail01.php">
+                                        <a href="/works/detail01.php">
                                             <img src="../image/t-cont01.jpg" alt="Magnific-Japan">
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
@@ -165,7 +165,7 @@
                                     <p>日本の「あまり知られていない現地情報」を海外へ発信することをコンセプに、個人で制作いたしました。</p>
                                     <p>こちらはデザインからWordPressへの組み込み等、全ての作業を一人で行ったサイトとなっております。</p>
                                     <div class="c-btn">
-                                        <p><a href="/LPE/自主制作/コーディング/works/detail01.php">詳しくはコチラ</a></p>
+                                        <p><a href="/works/detail01.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
-                                        <a href="/LPE/自主制作/コーディング/works/detail02.php">
+                                        <a href="/works/detail02.php">
                                             <img src="../image/t-cont02.jpg" alt="テンツーケア">
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
@@ -184,9 +184,9 @@
                                 <div class="p-port_des">
                                     <p>民間救急搬送を行うテンツーケア様のサイトを制作させていただきました。</p>
                                     <p>デザインを含め全ての工程を担当、現在でも保守運用を行わせていただいております。</p>
-                                    <a href="/LPE/自主制作/コーディング/works/detail02.php"></a>
+                                    <a href="/works/detail02.php"></a>
                                     <div class="c-btn">
-                                        <p><a href="/LPE/自主制作/コーディング/works/detail02.php">詳しくはコチラ</a></p>
+                                        <p><a href="/works/detail02.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
-                                        <a href="/LPE/自主制作/コーディング/works/detail03.php">
+                                        <a href="/works/detail03.php">
                                             <img src="../image/t-cont04.jpg" alt="引用・出典ジェネレーター">
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
@@ -207,7 +207,7 @@
                                     <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
                                     <a href=""></a>
                                     <div class="c-btn">
-                                        <p><a href="/LPE/自主制作/コーディング/works/detail03.php">詳しくはコチラ</a></p>
+                                        <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>

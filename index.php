@@ -54,7 +54,7 @@
         <header role="banner" class="top-only">
            <div class="l-h-top">
                <h1 class="l-log">
-                   <a href="/LPE/自主制作/コーディング/">
+                   <a href="/">
 <!--                       <img src="image/log.png" alt="TCW">-->
                        TCW
                    </a>
@@ -67,28 +67,28 @@
             
             <nav class="drawer-nav" role="navigation">
                 <div class="log">
-                    <a href="/LPE/自主制作/コーディング/">
+                    <a href="/">
 <!--                        <img src="image/log.png" alt="TCW">-->
                         TCW
                     </a>
                 </div>
                 <div class="drawer-in">
                     <ul class="drawer-menu">
-                        <li class="drawer-ttl"><a class="drawer-brand" href="/LPE/自主制作/コーディング/service/">Service</a></li>
-                        <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/service/#p-s_b_01"><span>ご依頼内容について</span></a></li>
-                        <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/service/#p-s_b_02"><span>料金について</span></a></li>
-                        <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/service/#p-s_b_03"><span>制作物について</span></a></li>
+                        <li class="drawer-ttl"><a class="drawer-brand" href="/service/">Service</a></li>
+                        <li><a class="drawer-menu-item" href="/service/#p-s_b_01"><span>ご依頼内容について</span></a></li>
+                        <li><a class="drawer-menu-item" href="/service/#p-s_b_02"><span>料金について</span></a></li>
+                        <li><a class="drawer-menu-item" href="/service/#p-s_b_03"><span>制作物について</span></a></li>
                     </ul>
                     <ul class="drawer-menu">
-                        <li><a class="drawer-brand" href="/LPE/自主制作/コーディング/works/">Works</a></li>
-                        <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail01.php"><span>Magnific-Japan</span></a></li>
-                        <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail02.php"><span>テンツーケア</span></a></li>
-                            <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail04.php"><span>TCW トミザワクリエイティブワークス</span></a></li>
-                        <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail03.php"><span>出典・引用ジェネレーター</span></a></li>
-                        <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/#p-port_works-others"><span>その他テストサイト</span></a></li>
+                        <li><a class="drawer-brand" href="/works/">Works</a></li>
+                        <li><a class="drawer-menu-item" href="/works/detail01.php"><span>Magnific-Japan</span></a></li>
+                        <li><a class="drawer-menu-item" href="/works/detail02.php"><span>テンツーケア</span></a></li>
+                            <li><a class="drawer-menu-item" href="/works/detail04.php"><span>TCW トミザワクリエイティブワークス</span></a></li>
+                        <li><a class="drawer-menu-item" href="/works/detail03.php"><span>出典・引用ジェネレーター</span></a></li>
+                        <li><a class="drawer-menu-item" href="/works/#p-port_works-others"><span>その他テストサイト</span></a></li>
                     </ul>
                     <ul class="drawer-menu">
-                        <li><a class="drawer-brand" href="/LPE/自主制作/コーディング/contact/">Contact</a></li>
+                        <li><a class="drawer-brand" href="/contact/">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -148,7 +148,7 @@
                            <div class="p-s_add" id="p-t_c_works">
                                <div class="p-s_group">
                                    <div class="p-s_img is-pc">
-                                       <a href="/lpe/自主制作/コーディング/works/">
+                                       <a href="/works/">
                                            <p><img src="image/subject_01.jpg" alt="Works"></p>
                                           <div class="shadow-box"><span>Check</span></div>
                                       </a>
@@ -156,7 +156,7 @@
                                    <div class="p-s_des">
                                        <h3><span class="p-s_ttl">Works<span class="p-s_ttl_small">メディア、コーポレートサイト等の制作実績を多数掲載</span></span></h3>
                                        <div class="p-s_img is-sp">
-                                           <a href="/lpe/自主制作/コーディング/works/">
+                                           <a href="/works/">
                                                <p><img src="image/subject_01.jpg" alt="Works"></p>
                                                <div class="shadow-box"><span>Check</span></div>
                                            </a>
@@ -166,7 +166,7 @@
                                                <p>ポートフォリオ（実績）に関しましては、こちらよりご観覧が可能となっております。</p>
                                                <p>企業様からご依頼を頂いたコーポレートサイト、自主制作サイト等の多種多様な実績を掲載しておりますので、是非ご覧ください。</p>
                                                <div class="c-btn">
-                                                   <p><a href="/lpe/自主制作/コーディング/works/">詳しくはコチラ</a></p>
+                                                   <p><a href="/works/">詳しくはコチラ</a></p>
                                                </div>
                                            </div>
                                        </div>
@@ -179,7 +179,7 @@
                                    <div class="p-s_des">
                                        <h3><span class="p-s_ttl">Service<span class="p-s_ttl_small">柔軟なサービスをご提供</span></span></h3>
                                        <div class="p-s_img is-sp">
-                                           <a href="/lpe/自主制作/コーディング/service/">
+                                           <a href="/service/">
                                                <p><img src="image/subject_02.jpg" alt="Service"></p>
                                                <div class="shadow-box"><span>Check</span></div>
                                            </a>
@@ -189,13 +189,13 @@
                                                <p>サービスページでは、Webサイト・ホームページ制作の概要や料金、対応可能な業務範囲等を掲載しております。</p>
                                                <p>また、制作会社様からの請負につきましても、こちらをご確認の上でご検討いただけますと幸いです。</p>
                                                <div class="c-btn">
-                                                   <p><a href="/lpe/自主制作/コーディング/service/">詳しくはコチラ</a></p>
+                                                   <p><a href="/service/">詳しくはコチラ</a></p>
                                                </div>
                                            </div>
                                        </div>
                                    </div>
                                    <div class="p-s_img is-pc">
-                                       <a href="/lpe/自主制作/コーディング/service/">
+                                       <a href="/service/">
                                            <p><img src="image/subject_02.jpg" alt="Service"></p>
                                            <div class="shadow-box"><span>Check</span></div>
                                        </a>
@@ -283,7 +283,12 @@
             <div class="c-contact_inner">
                 <p class="des">Webサイト・ホームページの制作、業務委託等のご相談は<br class="is-sp">下記からお問い合わせください</p>
                 <div class="c-btn">
-                    <p><a href="/LPE/自主制作/コーディング/contact/">お問い合わせ</a></p>
+                    <p><a href="/contact/">お問い合わせ</a></p>
+                </div>
+                <div class="icons">
+                    <div class="icon-block"><span class="c_icon"><img src="image/icon-mail.png" alt=""><a href="mailto:m.tomizawa@t-creative-works.com">tomizawa@t-creative-works.com</a></span></div>
+                    <div class="icon-block"><span class="c_icon"><img src="image/icon-tell.png" alt=""><a href="tel:+81-50-3199-1487">050-3199-1487</a></span></div>
+                    <!--                    <div class="icon-block"><span class="c_icon"><img src="image/icon-twitter.png" alt=""><a href="https://twitter.com/tcw_job" target="_blank">Twitter</a></span></div>-->
                 </div>
             </div>
         </div>
@@ -296,10 +301,10 @@
             <div class="footer_inner">
                 <ul>
                     <li><a href="#i-all" v-smooth-scroll="{ duration: 1200, offset: 0 }">Top</a></li>
-                    <li><a href="/LPE/自主制作/コーディング/works/">Works</a></li>
-                    <li><a href="/LPE/自主制作/コーディング/service/">Service</a></li>
+                    <li><a href="/works/">Works</a></li>
+                    <li><a href="/service/">Service</a></li>
                     <li class="prepare">media</li>
-                    <li><a href="/LPE/自主制作/コーディング/contact/">Contact</a></li>
+                    <li><a href="/contact/">Contact</a></li>
                 </ul>
                 <p class="copy_right">Copyright (C) t-creative-works All rights reserved.</p>
             </div>

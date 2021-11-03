@@ -147,32 +147,6 @@
   margin: 50px auto;
 }
 
-#p-contact .p-c_address .icons {
-  font-weight: bold;
-  margin-top: 30px;
-  display: block;
-  line-height: 1;
-}
-
-#p-contact .p-c_address .icons .icon-block:not(:first-child) {
-  margin-top: 20px;
-}
-
-#p-contact .p-c_address .icons .c_icon {
-  margin-top: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#p-contact .p-c_address .icons .c_icon img {
-  max-width: 30px;
-  margin-right: 25px;
-}
-
 #p-contact .contact-finish {
   text-align: center;
   margin-top: 70px;

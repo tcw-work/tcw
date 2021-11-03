@@ -155,7 +155,7 @@
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
-                                        <a href="/LPE/自主制作/コーディング/works/detail01.php">
+                                        <a href="/works/detail01.php">
                                             <img src="../image/t-cont01.jpg" alt="Magnific-Japan">
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
@@ -165,7 +165,7 @@
                                     <p>日本の「あまり知られていない現地情報」を海外へ発信することをコンセプに、個人で制作いたしました。</p>
                                     <p>こちらはデザインからWordPressへの組み込み等、全ての作業を一人で行ったサイトとなっております。</p>
                                     <div class="c-btn">
-                                        <p><a href="/LPE/自主制作/コーディング/works/detail01.php">詳しくはコチラ</a></p>
+                                        <p><a href="/works/detail01.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
-                                        <a href="/LPE/自主制作/コーディング/works/detail04.php">
+                                        <a href="/works/detail04.php">
                                             <img src="../image/t-cont03.jpg" alt="TCW-トミザワ・クリエイティブワークス">
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
@@ -185,7 +185,7 @@
                                     <p>フリーランスとして独立する際に、ポートフォリオ等の役割を担うサイトとして制作しました。</p>
                                     <p>今現在ご覧いただいているこのページと同サイトであり、シンプルかつモダンな雰囲気を意識した作りとなっております。</p>
                                     <div class="c-btn">
-                                        <p><a href="/LPE/自主制作/コーディング/works/detail04.php">詳しくはコチラ</a></p>
+                                        <p><a href="/works/detail04.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
-                                        <a href="/LPE/自主制作/コーディング/works/detail03.php">
+                                        <a href="/works/detail03.php">
                                             <img src="../image/t-cont04.jpg" alt="引用・出典ジェネレーター">
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
@@ -205,7 +205,7 @@
                                     <p>論文などの出典リストを誰でも簡単に生成できるツールを開発しました。</p>
                                     <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
                                     <div class="c-btn">
-                                        <p><a href="/LPE/自主制作/コーディング/works/detail03.php">詳しくはコチラ</a></p>
+                                        <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>

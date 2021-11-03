@@ -1,0 +1,49 @@
+.icons {
+    font-weight: bold;
+    margin-top: 30px;
+    display: block;
+    line-height: 1;
+    .icon-block {
+        &:not(:first-child) {
+            margin-top: 20px;
+        }
+    }
+    .c_icon {
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        img {
+            max-width: 30px;
+            margin-right: 25px;
+        }
+    }
+}
+
+#c-contact {
+    .icons {
+        font-weight: bold;
+        margin-top: 30px;
+        display: block;
+        line-height: 1;
+        width: 100%;
+        max-width: 335px;
+        margin: 40px auto 0;
+        a {
+            color: #fff;
+            color: #fff;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .c_icon {
+            img {
+                max-width: 38px;
+                margin-right: 25px;
+                background-color: #fff;
+                padding: 7px;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                border-radius: 13px;
+            }
+        }
+    }
+}

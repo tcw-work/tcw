@@ -2,7 +2,12 @@
     <div class="c-contact_inner">
         <p class="des">Webサイト・ホームページの制作、業務委託等のご相談は<br class="is-sp">下記からお問い合わせください</p>
         <div class="c-btn">
-            <p><a href="/LPE/自主制作/コーディング/contact/">お問い合わせ</a></p>
+            <p><a href="/contact/">お問い合わせ</a></p>
+        </div>
+        <div class="icons">
+            <div class="icon-block"><span class="c_icon"><img src="image/icon-mail.png" alt=""><a href="mailto:m.tomizawa@t-creative-works.com">tomizawa@t-creative-works.com</a></span></div>
+            <div class="icon-block"><span class="c_icon"><img src="image/icon-tell.png" alt=""><a href="tel:+81-50-3199-1487">050-3199-1487</a></span></div>
+            <!--                    <div class="icon-block"><span class="c_icon"><img src="image/icon-twitter.png" alt=""><a href="https://twitter.com/tcw_job" target="_blank">Twitter</a></span></div>-->
         </div>
     </div>
 </div>
@@ -14,11 +19,11 @@
        </a>
     <div class="footer_inner">
         <ul>
-            <li><a href="/LPE/自主制作/コーディング/">Top</a></li>
-            <li><a href="/LPE/自主制作/コーディング/works/">Works</a></li>
-            <li><a href="/LPE/自主制作/コーディング/service/">Service</a></li>
+            <li><a href="/">Top</a></li>
+            <li><a href="/works/">Works</a></li>
+            <li><a href="/service/">Service</a></li>
             <li class="prepare">media</li>
-            <li><a href="/LPE/自主制作/コーディング/contact/">Contact</a></li>
+            <li><a href="/contact/">Contact</a></li>
         </ul>
         <p class="copy_right">Copyright (C) t-creative-works All rights reserved.</p>
     </div>

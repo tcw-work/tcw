@@ -2,8 +2,8 @@
    <header role="banner">
     <div class="l-h-top">
         <h1 class="l-log">
-            <a href="/lpe/自主制作/コーディング/">
-<!--                <img src="/LPE/自主制作/コーディング/image/log_under.png" alt="TCW">-->
+            <a href="/">
+<!--                <img src="/image/log_under.png" alt="TCW">-->
                 TCW
             </a>
         </h1>
@@ -15,28 +15,28 @@
 
     <nav class="drawer-nav" role="navigation">
         <div class="log">
-            <a href="/lpe/自主制作/コーディング/">
-<!--                <img src="/LPE/自主制作/コーディング/image/log.png" alt="TCW">-->
+            <a href="/">
+<!--                <img src="/image/log.png" alt="TCW">-->
                 TCW
             </a>
         </div>
         <div class="drawer-in">
             <ul class="drawer-menu">
-                <li class="drawer-ttl"><a class="drawer-brand" href="/LPE/自主制作/コーディング/service/">Service</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/service/#p-s_b_01">ご依頼内容について</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/service/#p-s_b_02">料金について</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/service/#p-s_b_03">制作物について</a></li>
+                <li class="drawer-ttl"><a class="drawer-brand" href="/service/">Service</a></li>
+                <li><a class="drawer-menu-item" href="/service/#p-s_b_01"><span>ご依頼内容について</span></a></li>
+                <li><a class="drawer-menu-item" href="/service/#p-s_b_02"><span>料金について</span></a></li>
+                <li><a class="drawer-menu-item" href="/service/#p-s_b_03"><span>制作物について</span></a></li>
             </ul>
             <ul class="drawer-menu">
-                <li><a class="drawer-brand" href="/LPE/自主制作/コーディング/works/">Works</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail01.php">Magnific-Japan</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail02.php">テンツーケア</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail04.php">TCD トミザワクリエイティブワークス</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works/detail03.php">出典・引用ジェネレーター</a></li>
-                <li><a class="drawer-menu-item" href="/LPE/自主制作/コーディング/works.php#p-port_works-others">その他テストサイト</a></li>
+                <li><a class="drawer-brand" href="/works/">Works</a></li>
+                <li><a class="drawer-menu-item" href="/works/detail01.php"><span>Magnific-Japan</span></a></li>
+                <li><a class="drawer-menu-item" href="/works/detail02.php"><span>テンツーケア</span></a></li>
+                <li><a class="drawer-menu-item" href="/works/detail04.php"><span>TCD トミザワクリエイティブワークス</span></a></li>
+                <li><a class="drawer-menu-item" href="/works/detail03.php"><span>出典・引用ジェネレーター</span></a></li>
+                <li><a class="drawer-menu-item" href="/works.php#p-port_works-others"><span>その他テストサイト</span></a></li>
             </ul>
             <ul class="drawer-menu">
-                <li><a class="drawer-brand" href="/LPE/自主制作/コーディング/contact/">Contact</a></li>
+                <li><a class="drawer-brand" href="/contact/">Contact</a></li>
             </ul>
         </div>
     </nav>

@@ -3,19 +3,9 @@ SetEnvIf Request_URI ".*" Ngx_Cache_StaticMode
 
 AddHandler fcgid-script .html
 
-<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-</IfModule>
-
-SetEnvIf User-Agent "Googlebot" shutout
-SetEnvIf User-Agent "Slurp" shutout
-SetEnvIf User-Agent "msnbot" shutout
-
-order Allow,Deny
-Allow from all
-Deny from env=shutout
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
 
 AuthUserFile "/home/akahanataka/t-creative-works.com/public_html/test-server/.htpasswd"

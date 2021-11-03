@@ -747,6 +747,52 @@ b.bold {
           transform: translateX(0);
 }
 
+.p-p_works #p-port_card .profile {
+  height: auto;
+  margin-bottom: 70px;
+  max-height: 100%;
+}
+
+.p-p_works #p-port_card .profile .p-port_profile {
+  font-weight: normal;
+}
+
+.p-p_works #p-port_card .profile .p-port_profile .skill-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 77px 0px 40px 0px;
+}
+
+.p-p_works #p-port_card .profile .p-port_profile .skill-box ul {
+  border: 5px solid #343434;
+  width: 47%;
+  padding: 10px 15px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.p-p_works #p-port_card .profile .p-port_profile .skill-box ul li:first-child {
+  position: absolute;
+  top: -46px;
+  left: -5px;
+  background-color: #343434;
+  padding: 8px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-weight: bold;
+}
+
+.p-p_works #p-port_card .profile .p-port_profile .skill-box ul li:not(:first-child) {
+  margin-bottom: 10px;
+  margin-bottom: 4px;
+}
+
 @media screen and (max-width: 768px) {
   .p-p_works {
     margin-top: 40px;
@@ -2147,32 +2193,6 @@ b.bold {
   margin: 50px auto;
 }
 
-#p-contact .p-c_address .icons {
-  font-weight: bold;
-  margin-top: 30px;
-  display: block;
-  line-height: 1;
-}
-
-#p-contact .p-c_address .icons .icon-block:not(:first-child) {
-  margin-top: 20px;
-}
-
-#p-contact .p-c_address .icons .c_icon {
-  margin-top: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#p-contact .p-c_address .icons .c_icon img {
-  max-width: 30px;
-  margin-right: 25px;
-}
-
 #p-contact .contact-finish {
   text-align: center;
   margin-top: 70px;
@@ -2629,6 +2649,59 @@ b.bold {
   .p-p_top #p-subject ul.word-deco li:last-child {
     display: none;
   }
+}
+
+.icons {
+  font-weight: bold;
+  margin-top: 30px;
+  display: block;
+  line-height: 1;
+}
+
+.icons .icon-block:not(:first-child) {
+  margin-top: 20px;
+}
+
+.icons .c_icon {
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons .c_icon img {
+  max-width: 30px;
+  margin-right: 25px;
+}
+
+#c-contact .icons {
+  font-weight: bold;
+  margin-top: 30px;
+  display: block;
+  line-height: 1;
+  width: 100%;
+  max-width: 335px;
+  margin: 40px auto 0;
+}
+
+#c-contact .icons a {
+  color: #fff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#c-contact .icons .c_icon img {
+  max-width: 38px;
+  margin-right: 25px;
+  background-color: #fff;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 13px;
 }
 
 html body {
