@@ -212,6 +212,23 @@
         margin-top: 40px;
         #p-port_card {
             padding: 0px 10px;
+            .profile {
+                .p-port_profile {
+                    .skill-box {
+                        display: block;
+                        margin: 72px 0px 30px 0px;
+                        ul {
+                            width: 100%;
+                            li {
+
+                            }
+                            &:nth-of-type(1) {
+                                margin-bottom: 66px;
+                            }
+                        }
+                    }
+                }
+            }
             .p-port_block {
                 height: 100%;
                 max-height: inherit;
