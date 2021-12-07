@@ -73,6 +73,7 @@
                                             <li class="s-01">● 仕様言語・ツール</li>
                                             <li>・HTML5、CSS／SCSS、Bootstrap、Javascript、jQuery（Vueでの一部実装も経験アリ）、PHP</li>
                                             <li>・Git、Sourcetree／Subversionでのバージョン管理</li>
+                                            <li>・Gulp</li>
                                             <li>・Photoshop、Illustrator</li>
                                             <li>・CMS（WordPress、企業の独自CMS）</li>
                                             <li>・FTP（Filezilla、Beyond Compare）</li>
