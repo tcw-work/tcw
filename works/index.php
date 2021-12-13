@@ -9,8 +9,6 @@
         <meta name="description" content="TCW（トミザワ クリエイティブ ワークス）は、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
         <meta name="keyword" content="tcw,トミザワクリエイティブワークス,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!--        particles.js-->
-        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js?date=202108028"></script>
         <!-- CSS定義 -->
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <!--        <link rel="stylesheet" type="text/css" href="utility/u-color.css">-->
