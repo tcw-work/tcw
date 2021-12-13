@@ -46,6 +46,16 @@
         <link rel="apple-touch-icon-precomposed" href="image/touch-icon.png">
         <!--    電話番号やメールアドレスの変換設定防止タグ-->
         <meta name="format-detection" content="email=no,telephone=no,address=no">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6B8SHB1V7D"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-6B8SHB1V7D');
+        </script>
     </head>
 
 
