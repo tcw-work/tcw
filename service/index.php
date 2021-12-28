@@ -172,7 +172,7 @@
                                     </tr>
                                     <tr>
                                         <th class="th_01"><p>LP</p></th>
-                                        <th class="th_02"><p>￥10,000〜80,000万円</p></th>
+                                        <th class="th_02"><p>￥10,000〜80,000円</p></th>
                                     </tr>
                                     <tr>
                                         <th class="th_01"><p>サイトレスポンシブ化</p></th>
@@ -197,7 +197,7 @@
                                     </tr>
                                     <tr>
                                         <th class="th_01"><p>下層</p></th>
-                                        <th class="th_02"><p>￥20,000〜50,000万円</p></th>
+                                        <th class="th_02"><p>￥20,000〜50,000円</p></th>
                                     </tr>
                                     <tr>
                                         <th class="th_01"><p>その他</p></th>
