@@ -55,6 +55,8 @@
 
             gtag('config', 'G-6B8SHB1V7D');
         </script>
+        
+        <link rel="manifest" href="manifest.json">
     </head>
 
 
