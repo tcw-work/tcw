@@ -76,32 +76,33 @@
                             <div id="p-port_works02" class="p-port_block profile">
                                 <h3 class="c-head_3">Profile</h3>
                                 <div class="p-port_inner p-port_profile">
-                                    <p>私はこれまでにWeb制作会社にてフロントエンドエンジニアとして二年半ほど実務を経験した後、現在はフリーランスとして活動しております。</p>
+									<p>私の主な経歴は下記の通りです。<br><br>
+										WEB制作会社にて勤務→SES計企業にて社内エンジニアとして転職→フリーランスとして活動→自社開発系企業に正社員としてジョイン（現在に至る）
+									</p>
 
                                     <div class="skill-box">
                                         <ul>
-                                            <li class="s-01">● 仕様言語・ツール</li>
-                                            <li>・HTML5、CSS／SCSS、Bootstrap、Javascript、jQuery（Vueでの一部実装も経験アリ）、PHP</li>
-                                            <li>・Git、Sourcetree／Subversionでのバージョン管理</li>
-                                            <li>・Gulp</li>
-                                            <li>・Photoshop、Illustrator</li>
-                                            <li>・CMS（WordPress、企業の独自CMS）</li>
-                                            <li>・FTP（Filezilla、Beyond Compare）</li>
-                                            <li>・Xamppでのローカル環境</li>
-                                            <li>・VSS／Bracketsエディター</li>
-                                            <li>・Office系ソフト</li>
+											<li class="s-01">●使用言語・ツール</li>
+											<li>・HTML5、Pug</li>
+											<li>・CSS/SCSS、Bootstrap</li>
+											<li>・Javascript、jQuery/React.js</li>
+											<li>・Git、Sourcetree、Subversion</li>
+											<li>・Webpack、Gulp</li>
+											<li>・Photoshop、XD</li>
+											<li>・PHP、Xampp</li>
+											<li>・WordPress</li>
                                         </ul>
                                         <ul>
-                                            <li class="s-01">● 主な業務経験</li>
-                                            <li>・某製造メーカー様のサイトフルリニューアル（全ページのコーディング担当）</li>
-                                            <li>・某コンサートサイトのコーディング</li>
-                                            <li>・某家電メーカーのサイトのコーディング</li>
-                                            <li>・定期的なLP作成</li>
-                                            <li>・Wordpressを用いた動的サイト（テーマ）作成</li>
-                                            <li>・個人事業主様のホームページ作成（デザイン含む）</li>
-                                            <li>・自社サービス（ECサイト）の運用業務</li>
-                                            <li>・某飲料メーカーのLP、CPのコーディング（定期）</li>
-                                            <li>・某大手通信系企業のオウンドメディア運用</li>
+											<li class="s-01">●業務・開発経験</li>
+											<li>・フロント部分コーディング業務全般</li>
+											<li>・Photoshop、XDを用いたページデザイン（UIUX含む）</li>
+											<li>・Line APIによるユーザーアカウントの紐づけ</li>
+											<li>・PWAによるサイトのアプリ化</li>
+											<li>・Google Play Storeへの出店</li>
+											<li>・FireBaseを通したPush通知の実装</li>
+											<li>・Storybookの導入</li>
+											<li>・Wordpressでのテーマ作成</li>
+											<li>・フリーランス（フロントエンド）としてフィンテック企業へ参加</li>
                                         </ul>
 
                                     </div>

@@ -79,19 +79,20 @@
                               <p></p>
                           </div>
                       </div>
+					  <div class="p-content_block">
+						  <h3 class="c-head_3">Coding</h3>
+						  <div class="p-detail-des">
+							  <p>PWAによるサイトのアプリ化やGoogle Play Storeからもダウンロードできる形になっております。詳しくは<a href="https://play.google.com/store/apps/details?id=com.t_creative_works.twa&hl=ja" target="_blank">こちら</a>からご確認いただけます。</p>
+							  <p>さらにFirebaseを経由したPush通知なども送ることができるように改良しました。</p>
+							  <p>コーディング面ではSCSS（リキッド）とFLOCSS設計を用いた仕様となっています。これにより、要素の使い回しや運用効率のアップを図りました。</p>
+							  <p>最大の特徴として、Javascriptによる不規則に動くメインビジュアルや、ユーザーの視認性を上げるUIなどを意識した作りとなっています。新しい試みとして、一部「Vue.js」を用いたコーディングを実装しました。</p>
+						  </div>
+					  </div>
                       <div class="p-content_block">
                           <h3 class="c-head_3">Marketing・Persona</h3>
                           <div class="p-detail-des">
                               <p>ペルソナは自身のクライアントや業務パートナーとなっています。</p>
                               <p>トップページでは主に各ページへの導線を散りばめ、下層ページでは「サービス内容」や「業務実績」についてお伝えする仕様となっています。</p>
-                          </div>
-                      </div>
-                      <div class="p-content_block">
-                          <h3 class="c-head_3">Coding</h3>
-                          <div class="p-detail-des">
-                              <p>コーディング面ではSCSS（リキッド）とFLOCSS設計を用いた仕様となっています。これにより、要素の使い回しや運用効率のアップを図りました。</p>
-                              <p>最大の特徴として、Javascriptによる不規則に動くメインビジュアルや、ユーザーの視認性を上げるUIなどを意識した作りとなっています。新しい試みとして、一部「Vue.js」を用いたコーディングを実装しました。</p>
-                              <p>また、最初は別のデザインを基にコーティングをしていましたが、世界観の魅せ方や情報伝達に不足があると感じ、デザインを一から造り直し、再設計いたしました。</p>
                           </div>
                       </div>
                       <div class="p-content_block">
