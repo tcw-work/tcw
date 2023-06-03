@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "com.t_creative_works.twa",
+                     "sha256_cert_fingerprints": ["DC:54:90:F5:66:DF:8E:45:F4:F9:AA:7D:B9:93:1C:7E:49:A9:82:13:83:11:34:DA:34:79:8E:BE:D8:38:08:70"] }
+      }
+]

@@ -18,6 +18,8 @@
 <!--        ↓ドロワーメニュー-->
         <!-- JS定義 -->
         <script src="js/jquery-3.5.0.min.js"></script>
+<!--        <script src="node_link.js"></script>-->
+<!--        <script src="update.js"></script>-->
         <!-- drawer.css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
         <!-- jquery &amp; iScroll -->
@@ -58,6 +60,9 @@
         </script>
         
         <link rel="manifest" href="manifest.json">
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-messaging.js"></script>
+        <script type="text/javascript" src="push.js" defer></script>
     </head>
 
 
@@ -144,7 +149,7 @@
                             <p>当サイトをご覧いただき、誠にありがとうございます。</p>
                             <p>TCW（トミザワ・クリエイティブワークス）では、お客様に寄り添ったWebサイト・ホームページの制作を行っております。企業様や個人事業主様からのご依頼はもちろん、制作会社様からの業務委託なども随時承っております。</p>
                             <p>「サイトをリニューアルしたい」、「コーディングのみお願いしたい」、「運用をお任せしたい」…このようなご要望に対しても柔軟に対応することが可能です。</p>
-                            <p>また、本サイトにはサービス概要ページや、制作物を載せた実績ページ等もご用意させていただいておりますので、是非そちらもご覧ください。</p>
+                            <p>また、本サイトにはサービス概要ページや、制作物を載せた実績ページ等もご用意させていただいておりますので、是非そちらもご覧ください</p>
                         </div>
                     </div>
 
@@ -318,7 +323,7 @@
                     <li class="prepare">media</li>
                     <li><a href="/contact/">Contact</a></li>
                 </ul>
-                <p class="copy_right">Copyright (C) t-creative-works All rights reserved.</p>
+                <p class="copy_right" id="c_r">Copyright (C) t-creative-works All rights reserved.</p>
             </div>
         </footer>
         </div>
@@ -403,4 +408,6 @@
     <script>
         particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":3},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5291259800856225,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3.945738208161363,"random":true,"anim":{"enable":false,"speed":41,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":280,"color":"#029779","opacity":0.24852886943415603,"width":6.2533070373755395},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"bounce","bounce":false,"attract":{"enable":false,"rotateX":10000,"rotateY":10000}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
     </script>
+    
+    
 </html>
