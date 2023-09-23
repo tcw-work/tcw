@@ -4,7 +4,7 @@
         .l-log {
             a {
                 color: #fff;
-                background: -webkit-linear-gradient(to right, #fff 100%);
+                background: -webkit-gradient(linear, left top, right top, to(#fff));
                 background: linear-gradient(to right, #fff 100%);
                 background-clip: text;
                 -webkit-background-clip: text;
@@ -402,7 +402,6 @@ header {
             }
         }
     }
-
 
     .drawer--top .drawer-hamburger,
     .drawer--top.drawer-open .drawer-hamburger {
