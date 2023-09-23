@@ -4,112 +4,84 @@
   width: 100%;
   margin: 0px auto 180px;
   padding: 0px 20px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 #p-contact .p-c_about {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
-
 #p-contact .p-c_sub_ttl {
   max-width: 600px;
   width: 100%;
   margin: 70px auto 70px;
 }
-
 #p-contact .p-c_sub_ttl ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 #p-contact .p-c_sub_ttl ul li {
   font-size: 24px;
   font-weight: bold;
 }
-
 #p-contact .p-c_sub_ttl ul li.p-c_s_correct {
   position: relative;
 }
-
 #p-contact .p-c_sub_ttl ul li.p-c_s_correct::after {
   content: "";
   width: 30px;
   display: block;
   border-bottom: 2px solid;
   -o-border-image: linear-gradient(to right, #a7d5c9 0%, #048e67 100%);
-  border-image: -webkit-gradient(linear, left top, right top, from(#a7d5c9), to(#048e67));
   border-image: linear-gradient(to right, #a7d5c9 0%, #048e67 100%);
   border-image-slice: 1;
   position: absolute;
   top: 39px;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 #p-contact form .form-block {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 #p-contact form .form-block .form-topic {
   font-size: 16px;
   max-width: 200px;
   width: 100%;
   margin-right: 32px;
 }
-
 #p-contact form .form-block .form-topic span {
   color: #e82d2d;
 }
-
 #p-contact form .form-block .form-input {
   max-width: 568px;
   width: 100%;
 }
-
 #p-contact form .form-block .form-input input {
   max-width: 568px;
   width: 100%;
   padding: 15px 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 45px;
   border: 1px solid #343434;
 }
-
 #p-contact form .form-block .form-input textarea {
   max-width: 568px;
   width: 100%;
   padding: 15px 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 350px;
   border: 1px solid #343434;
 }
-
 #p-contact form .form-block:not(:last-child) {
   margin-bottom: 40px;
 }
-
 #p-contact form .form-sub .c-btn {
   margin: 70px auto 0px;
 }
-
 #p-contact form .form-sub .c-btn button {
   background-color: #feca1e;
   border: none;
@@ -117,46 +89,39 @@
   max-width: 166px;
   width: 100%;
 }
-
 #p-contact form .form-sub .c-btn input {
   font-size: 22px;
   border: none;
   padding: 0;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   cursor: pointer;
   max-width: 166px;
   width: 100%;
   color: #fff !important;
   height: 60px;
   text-decoration: none;
-  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #418875), to(#0d4739));
   background: linear-gradient(to right, #418875 25%, #0d4739 100%);
   display: block;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-weight: bold;
   margin: 0 auto;
 }
-
 #p-contact .p-c_address {
   font-size: 16px;
   max-width: 800px;
   width: 100%;
   margin: 50px auto;
 }
-
 #p-contact .contact-finish {
   text-align: center;
   margin-top: 70px;
 }
-
 #p-contact .contact-finish .c-f_true {
   font-size: 18px;
   margin-bottom: 70px;
 }
-
 #p-contact .caution {
   color: #e82d2d;
 }
@@ -166,48 +131,36 @@
   padding-bottom: 5px;
   padding-left: 3px;
 }
-
 .p_confirm .result-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 380px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 70px auto 0px;
 }
-
 .p_confirm .result-block .result-input {
   font-size: 22px;
   border: none;
   padding: 0;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   cursor: pointer;
   max-width: 166px;
   width: 100%;
   color: #fff !important;
   height: 60px;
   text-decoration: none;
-  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #418875), to(#0d4739));
   background: linear-gradient(to right, #418875 25%, #0d4739 100%);
   display: block;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-weight: bold;
   margin: 0 auto;
 }
-
 .p_confirm .result-block .result-input02 {
   display: none;
 }
-
 .p_confirm .result_block_one {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .conirm-last .result-input-last {
@@ -217,17 +170,15 @@
   padding: 0;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   cursor: pointer;
   max-width: 166px;
   width: 100%;
   color: #fff !important;
   height: 60px;
   text-decoration: none;
-  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #418875), to(#0d4739));
   background: linear-gradient(to right, #418875 25%, #0d4739 100%);
   display: block;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-weight: bold;
   margin: 0 auto;
@@ -252,5 +203,4 @@
   #p-contact form .form-sub .c-btn input {
     font-size: 16px;
   }
-}
-/*# sourceMappingURL=p-contact-page.css.map */
+}/*# sourceMappingURL=p-contact-page.css.map */

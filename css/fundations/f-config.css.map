@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAIA,AAAA,GAAG,CAAC;EACA,KAAK,EALJ,IAAI;EAML,SAAS,EALF,IAAI;CAMd",
-    "sources": [
-        "f-config.scss"
-    ],
-    "names": [],
-    "file": "f-config.css"
-}
+{"version":3,"sources":["f-config.scss","f-config.css"],"names":[],"mappings":"AAIA;EACI,WALC;EAMD,eALO;ACEX","file":"f-config.css"}

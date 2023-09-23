@@ -4,21 +4,14 @@
   display: block;
   line-height: 1;
 }
-
 .icons .icon-block:not(:first-child) {
   margin-top: 20px;
 }
-
 .icons .c_icon {
   margin-top: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .icons .c_icon img {
   max-width: 30px;
   margin-right: 25px;
@@ -33,21 +26,17 @@
   max-width: 335px;
   margin: 40px auto 0;
 }
-
 #c-contact .icons a {
   color: #fff;
   color: #fff;
   text-decoration: none;
   font-weight: normal;
 }
-
 #c-contact .icons .c_icon img {
   max-width: 38px;
   margin-right: 25px;
   background-color: #fff;
   padding: 7px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 13px;
-}
-/*# sourceMappingURL=c-cont_icon.css.map */
+}/*# sourceMappingURL=c-cont_icon.css.map */

@@ -171,10 +171,17 @@
             max-height: 100%;
             .p-port_profile {
                 font-weight: normal;
+                .p-port_intro {
+                    p {
+                        &:not(:last-child) {
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
                 .skill-box {
                     display: flex;
                     justify-content: space-between;
-                    margin: 77px 0px 40px 0px;
+                    margin: 87px 0px 40px 0px;
                     ul {
                         border: 5px solid #343434;
                         width: 47%;
@@ -220,7 +227,6 @@
                         ul {
                             width: 100%;
                             li {
-
                             }
                             &:nth-of-type(1) {
                                 margin-bottom: 66px;

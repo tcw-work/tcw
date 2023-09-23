@@ -20,15 +20,10 @@
 @import "object/component/c-sideword";
 @import "object/component/c-cont_icon";
 
-
-
-
-
 html body {
     /*    letter-spacing: 0.1em;*/
-        font-family: 'Noto Serif JP', serif;
-        line-height: 1.6;
-        font-weight: 700;
-        -webkit-text-size-adjust: 100%;
-    }
-
+    font-family: "Noto Serif JP", serif;
+    line-height: 1.6;
+    font-weight: 700;
+    -webkit-text-size-adjust: 100%;
+}

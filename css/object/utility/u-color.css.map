@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "u-color.scss"
-    ],
-    "names": [],
-    "file": "u-color.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"u-color.css"}

@@ -1,33 +1,26 @@
 .p-s_price .p-s_p_block table {
   width: 100%;
 }
-
 .p-s_price .p-s_p_block table tr {
   border-top: 2px solid #343434;
   font-size: 18px;
   text-align: left;
 }
-
 .p-s_price .p-s_p_block table tr th {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .p-s_price .p-s_p_block table tr .th_01 {
   color: #fff;
   border-left: 2px solid #343434;
   max-width: 300px;
   width: 30%;
 }
-
 .p-s_price .p-s_p_block table tr .th_01 p {
   background-color: #343434;
   border: 2px solid #fff;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 15px 10px;
 }
-
 .p-s_price .p-s_p_block table tr .th_02 {
   color: #343434;
   border-left: 2px solid #343434;
@@ -35,16 +28,13 @@
   max-width: 700px;
   width: 70%;
 }
-
 .p-s_price .p-s_p_block table tr .th_02 p {
   padding: 15px 10px;
   border: 2px solid #fff;
 }
-
 .p-s_price .p-s_p_block table tr:last-child {
   border-bottom: 2px solid #343434;
 }
-
 .p-s_price .p-s_p_block:not(:last-child) {
   margin-bottom: 50px;
 }
@@ -54,7 +44,6 @@
     font-size: 16px;
   }
 }
-
 @media screen and (max-width: 500px) {
   .p-s_price .p-s_p_block table tr .th_01 {
     width: 40%;
@@ -62,5 +51,4 @@
   .p-s_price .p-s_p_block table tr .th_02 {
     width: 60%;
   }
-}
-/*# sourceMappingURL=p-price.css.map */
+}/*# sourceMappingURL=p-price.css.map */
