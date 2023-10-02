@@ -235,7 +235,7 @@
                             <div class="p-s_add">
                                 <div class="p-s_group">
                                     <div class="p-s_img is-pc">
-                                        <a href="javascript:void(0)">
+                                        <a href="https://t-creative-works.com/" target="_blank">
                                             <p><img src="image/subject_03.jpg" alt="Media"></p>
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
@@ -254,7 +254,8 @@
                                                 <p>フロントエンド、バックエンドに関する技術や知識を掲載したサイトの運営をしております。</p>
                                                 <p>技術レベルの参考にしていただけますと、より制作イメージを掴めるかと存じます。</p>
                                                 <div class="c-btn">
-                                                    <p><a href="/works/detail05.php">詳しくはコチラ</a></p>
+                                                    <p><a href="https://t-creative-works.com/"
+                                                            target="_blank">詳しくはコチラ</a></p>
                                                 </div>
                                             </div>
                                         </div>

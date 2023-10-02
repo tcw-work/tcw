@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>TCW トミザワ・クリエイティブ ワークス ポートフォリオ「Source Pack」解説ページ</title>
+    <title>TCW トミザワ・クリエイティブ ワークス ポートフォリオ「TCW Ver.2.0」解説ページ</title>
     <meta name="description"
         content="TCW（トミザワ クリエイティブ ワークス）は、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
     <meta name="keyword" content="tcw,トミザワクリエイティブワークス,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
@@ -65,115 +65,86 @@
 
 
 <body class="drawer drawer--top p-p_under">
-    <?php include('../header.php');?>
+    <?php include('../header.php'); ?>
 
     <main class="p-p_portfolio p-p_works p-p_detail">
         <div class="f-wrap">
             <div class="f-wrap-inner">
 
                 <div id="p-port_detail">
-                    <h2 class="c-head_2">Source Pack（システムのみ）</h2>
+                    <h2 class="c-head_2">TCW Ver.2.0</h2>
                     <div class="p-detail_pic">
-                        <img src="../image/detail-mv03.jpg" alt="Source Pack MV">
+                        <img src="../image/detail-mv05.jpg" alt="">
                     </div>
                     <div class="p-content_block">
                         <h3 class="c-head_3">Concept</h3>
                         <div class="p-detail-des">
-                            <p>※こちらフロント部分の実装は現在作業中ですので、ベータ版としてお使いください。</p>
-                            <p>学術論文を作成する際に、参考文献から引用・出典リストを誰でも自動で簡単に作成するためのツールを開発しました。</p>
-                            <p>学術系の引用や出典リストの作成には、意外と細かなルールがあり、項目の並び順がその都度変化します。そのため、論文やレポートを作成する際に、逐一調べながら出典リストを書いている学生も多いのです。
-                            </p>
-                            <p>そんな手間の掛かる作業を簡略化するために製作したのが、このツールです。</p>
-                            <p>ユーザーは筆者名や著書名などの項目を入力するだけで、複雑な出典リストを自動で簡単に作成できます。</p>
-                            <p>このツールを制作するに際して、10を超える出典情報を比較し、その中で一番使われている、論文・レポート作成に最適なスタイルに設定しています。</p>
+                            <p>自身のインプットした知識を、アウトプットとして活用すべく制作した技術ブログとなっております。</p>
+                            <p>デザイン、コーディング、システムを全て自身で行い、テーマとして1から自作しました。</p>
+                            <p>これにより、コードをストックして業務の効率化を進めるだけでなく、選考の際の実力を知ってもらうための指標にしていただけたら幸いです。</p>
                         </div>
                     </div>
                     <div class="p-content_block">
-                        <h3 class="c-head_3">System</h3>
+                        <h3 class="c-head_3">Dsign</h3>
                         <div class="p-detail-des">
-                            <p>このサービスはバニラPHPで開発されており、ログイン認証、出典データの作成削除、履歴検索ユーザースコアなどのロジック作成など、全て1からコードを書いて開発しました。</p>
-                            <p>自身のPHPの勉強を兼ねて作成し、MysqlなどでDB操作などの工程も一貫して行いました。</p>
-                            <p>また、国立国会図書館が提供するAPIと連携することで、本の名前を入力するだけで必要な情報を取得する機能なども実装いたしました。</p>
+                            <p>XDを用いてデザインから作成しました。</p>
+                            <p>このサイトの前進である旧サイトのコンセプトである、「<b class="bold">モダン×テクノロジーを表現する</b>」を引き継いだサイトデザインとなっております。</p>
+                            <p>現在のトレンドでもある追従型の目次の導入やCODDPENなどうも導入し、よりユーザーにとってインタラクティブで直感的なUIを提供いたしました。</p>
                         </div>
                     </div>
                     <div class="p-content_block">
-                        <h3 class="c-head_3">Coding（フロント未反映）</h3>
+                        <h3 class="c-head_3">Plan</h3>
                         <div class="p-detail-des">
-                            <p>フロント部分のコーディングは現在制作中です。</p>
-                            <p>今回はシステム面に力を入れたため、コーディングは従来通り、基本に忠実な設計となる予定です。</p>
-                            <p>先駆けて、Firebaseを介したプッシュ通知、PWAによるサイトのアプリ化を行いました。</p>
-                            <p>また、ユーザービリティ向上のため、PHPの非同期通信としてAjaxでの処理を行い、よりインタラクティブな作りへと進化しました。</p>
-                            <p>各出典ジェネレーターはJavaScriptを用いてロジックが組まれており、出典を作成するための各パターンに対応しております。</p>
+                            <p>一般的なSEO対策も行っており、解析ツールの導入なども行いました。</p>
+                            <p>これにより自身のアウトプットがどこで誰に有効活用されているのかを可視化と同時に、今後伸ばすべき技術のヒントとしても活用していく予定です。</p>
                         </div>
                     </div>
                     <div class="p-content_block">
-                        <h3 class="c-head_3">Design Concept（制作済み）</h3>
+                        <h3 class="c-head_3">Coding</h3>
                         <div class="p-detail-des">
-                            <p>デザインはFigmaを用いて制作しました。</p>
-                            <p>予めパーツをコンポーネント化し、使い回せる各要素に当てはめて効率化を図りました。</p>
-                            <p>また、Googleの検索窓のようにシンプルかつ機能重視なサイト設計となっており、ユーザーがストレスなく使えるように無駄な要素を削ぎ落としました。</p>
-                            <p>デザインのモチーフとして「ニューモモフィズム」を全体的に反映しており、より立体的で直感的な操作が可能なデザインとなる予定です。</p>
+                            <p>サイト高速化の実験も兼ねて、Webpackを導入してほぼ全てのCSS,JSを一つのファイルにビルドして制作しました。</p>
+                            <p>また、テーマ自体を1からPHPで構築したため、自分好みの入れたい機能を全て盛り込んで、自由なカスタマイズ性を実現しました。</p>
+                            <p>またPWAを導入したことにより、Android端末でほサイトアプリ化を実現しております。</p>
                         </div>
                     </div>
-                    <!-- <div class="p-content_block">
+                    <div class="p-content_block">
                         <h3 class="c-head_3">Point</h3>
                         <div class="p-detail-point">
                             <ul>
                                 <li>
                                     <div class="p-point_box">
                                         <div class="p-box_pic">
-                                            <p>Concept</p>
-                                            <img src="../image/detail-point03-01.jpg"
-                                                alt="画像：ユーザーが抱える出典作成時の問題を解決するサービス">
-                                        </div>
-                                        <p class="p-box_des">ユーザーが抱える出典作成時の問題を解決するサービス</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="p-point_box">
-                                        <div class="p-box_pic">
                                             <p>Technique</p>
-                                            <img src="../image/detail-point03-02.jpg" alt="画像：PHPで構築した動的サイト">
+                                            <img src="../image/detail-point05-01.jpg" alt="">
                                         </div>
-                                        <p class="p-box_des">PHPで構築した動的サイト</p>
+                                        <p class="p-box_des">Webpackを用いた全CSS、JSのビルドによるサイト高速化。</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="p-point_box">
                                         <div class="p-box_pic">
                                             <p>Design</p>
-                                            <img src="../image/detail-point03-03.jpg"
-                                                alt="画像：プッシュ通知やAjaxなどフロントとバックエンドが連結する設計">
+                                            <img src="../image/detail-point05-02.jpg" alt="">
                                         </div>
-                                        <p class="p-box_des">プッシュ通知やAjaxなどフロントとバックエンドが連結する設計</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="p-point_box">
-                                        <div class="p-box_pic">
-                                            <p>Development</p>
-                                            <img src="../image/detail-point02-04.jpg" alt="画像：Figmaとニューモフィズムを用いたUI設計">
-                                        </div>
-                                        <p class="p-box_des">Figmaとニューモフィズムを用いたUI設計</p>
+                                        <p class="p-box_des">自身のアウトプット、メモとしのコードストック。</p>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="p-content_infor">
                         <ul>
                             <li>
                                 <dl>
                                     <dt>Release Date</dt>
-                                    <dd class="p-_post_date">2023</dd>
+                                    <dd class="p-_post_date">2023.06.01</dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>URL</dt>
-                                    <dd class="p-_post_url"><a href="https://codetest01.t-creative-works.com/"
-                                            target="_blank">https://codetest01.t-creative-works.com/</a>
-                                    </dd>
+                                    <dd class="p-_post_url"><a href="https://t-creative-works.com/"
+                                            target="_blank">https://t-creative-works.com/</a></dd>
                                 </dl>
                             </li>
                         </ul>
@@ -204,27 +175,6 @@
                         </div>
                     </div> -->
                     <div id="p-port_works" class="p-port_block">
-                        <h3 class="c-head_3">TCW Ver.2.0</h3>
-                        <div class="p-port_inner">
-                            <div class="p-port_img">
-                                <div class="p-port_img_in">
-                                    <a href="/works/detail05.php">
-                                        <img src="../image/t-cont05.jpg" alt="TCW Ver.2.0">
-                                        <div class="shadow-box"><span>Check</span></div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="p-port_des">
-                                <p>フロントエンド、バックエンドに関する技術や知識を掲載したサイトの運営をしております。</p>
-                                <p>自身のアウトプット用メモとして活用し、私のレベル感をご確認頂く際の参考にしてもらえますと幸いです。</p>
-                                <a href="/works/detail05.php"></a>
-                                <div class="c-btn">
-                                    <p><a href="/works/detail05.php">詳しくはコチラ</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="p-port_works" class="p-port_block">
                         <h3 class="c-head_3">旧TCW</h3>
                         <div class="p-port_inner">
                             <div class="p-port_img">
@@ -240,6 +190,27 @@
                                 <p>今現在ご覧いただいているこのページと同サイトであり、シンプルかつモダンな雰囲気を意識した作りとなっております。</p>
                                 <div class="c-btn">
                                     <p><a href="/works/detail04.php">詳しくはコチラ</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="p-port_works" class="p-port_block">
+                        <h3 class="c-head_3">Source Pack</h3>
+                        <div class="p-port_inner">
+                            <div class="p-port_img">
+                                <div class="p-port_img_in">
+                                    <a href="/works/detail03.php">
+                                        <img src="../image/t-cont04.jpg" alt="Source Pack">
+                                        <div class="shadow-box"><span>Check</span></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-port_des">
+                                <p>論文などの出典リストを誰でも簡単に生成できるツールを開発しました。</p>
+                                <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
+                                <a href=""></a>
+                                <div class="c-btn">
+                                    <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
                                 </div>
                             </div>
                         </div>
@@ -285,13 +256,13 @@
                             </div>
                         </div>
                     </div> -->
+
                 </div>
 
 
             </div>
         </div>
     </main>
-    <?php include('../footer.php');?>
-
+    <?php include('../footer.php'); ?>
 
 </html>

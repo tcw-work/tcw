@@ -83,10 +83,10 @@
                             <h3 class="c-head_3">Profile</h3>
                             <div class="p-port_inner p-port_profile">
                                 <div class="p-port_intro">
-                                    <p>これまでにWeb制作会社にてフロントエンドエンジニアとして実務を経験した後、しばらくフリーランスとして活動していました。</p>
-                                    <p>その時にお世話になっていた業務委託先の会社にて、正社員としてジョインする形で入社させていただきました。</p>
-                                    <p>その後、時間を経て再びフリーランスとして活動を再開することにりましたので、これまで培ったWeb制作のスキルを活かして多種多様な案件に携わっていきたいと考えております。
+                                    <p>1995年生まれ東京都出身、現在は東京都在住。</p>
+                                    <p>基本的なマークアップ言語はもちろん、JavaScriptを用いたテクニカルなサイト構築を始め、Figma、XDを使用したUIUX領域の業務にも部分的に携わっております。
                                     </p>
+                                    <p>これまでWeb制作会社、SES企業、フィンテック企業など様々な業種で主にフロントエンドエンジニアとして各サービスの開発に参加してきました。</p>
                                 </div>
                                 <div class="skill-box">
                                     <ul>
@@ -100,7 +100,7 @@
                                         <li>・PWA（サイトアプリ化）</li>
                                         <li>・Webpack</li>
                                         <li>・storybook</li>
-                                        <li>・VueによるSPA</li>
+                                        <li>・構造化マークアップ</li>
                                     </ul>
                                     <ul>
                                         <li class="s-01">● バックエンド系経験</li>
@@ -128,9 +128,28 @@
                                 <p>もしWebサイトの制作、業務提携パートナーをお探しでしたら、是非お声かけ下さい。業務範囲に関しましては、下記のページをご参考にしていただけますと幸いです。</p>
                             </div>
                         </div>
-
+                        <!-- <div id="p-port_works05" class="p-port_block">
+                            <h3 class="c-head_3">QUOREA</h3>
+                            <div class="p-port_inner">
+                                <div class="p-port_img">
+                                    <div class="p-port_img_in">
+                                        <a href="/works/detail06.php">
+                                            <img src="../image/t-cont06.jpg" alt="QUOREA">
+                                            <div class="shadow-box"><span>Check</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-port_des">
+                                    <p>現在私もフロントエンドエンジニアとして参加している株式会社efitにて、自社サービス「QUOREA」のアップデートを行っています。</p>
+                                    <p>コーディングを中心に、必要に応じてUIUXにフォーカスしたページデザインなども担当しています。</p>
+                                    <div class="c-btn">
+                                        <p><a href="/works/detail06.php">詳しくはコチラ</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                         <div id="p-port_works05" class="p-port_block">
-                            <h3 class="c-head_3">TCW ver.2.0</h3>
+                            <h3 class="c-head_3">TCW Ver.2.0</h3>
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
@@ -144,7 +163,47 @@
                                     <p>フロントエンド、バックエンドに関する技術や知識を掲載したサイトの運営をしております。</p>
                                     <p>自身のアウトプット用メモとして活用し、私のレベル感をご確認頂く際の参考にしてもらえますと幸いです。</p>
                                     <div class="c-btn">
-                                        <p><a href="/works/detail01.php">詳しくはコチラ</a></p>
+                                        <p><a href="/works/detail05.php">詳しくはコチラ</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="p-port_works03" class="p-port_block">
+                            <h3 class="c-head_3">旧TCW</h3>
+                            <div class="p-port_inner">
+                                <div class="p-port_img">
+                                    <div class="p-port_img_in">
+                                        <a href="/works/detail04.php">
+                                            <img src="../image/t-cont03.jpg" alt="旧TCW">
+                                            <div class="shadow-box"><span>Check</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-port_des">
+                                    <p>一番最初にフリーランスを始めたときに構築したサイトです。</p>
+                                    <p>現在御覧頂いているページもこのサイトのものであり、自身のポートフォリオ、フリーランスとしてのプロモーションのために制作いたしました。</p>
+                                    <div class="c-btn">
+                                        <p><a href="/works/detail04.php">詳しくはコチラ</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="p-port_works04" class="p-port_block">
+                            <h3 class="c-head_3">Source Pack（システムのみ）</h3>
+                            <div class="p-port_inner">
+                                <div class="p-port_img">
+                                    <div class="p-port_img_in">
+                                        <a href="/works/detail03.php">
+                                            <img src="../image/t-cont04.jpg" alt="Source Pack">
+                                            <div class="shadow-box"><span>Check</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-port_des">
+                                    <p>論文などの出典リストを誰でも簡単に生成できるツールを開発しました。</p>
+                                    <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
+                                    <div class="c-btn">
+                                        <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -169,7 +228,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="p-port_works02" class="p-port_block">
+                        <!-- <div id="p-port_works02" class="p-port_block">
                             <h3 class="c-head_3">テンツーケア</h3>
                             <div class="p-port_inner">
                                 <div class="p-port_img">
@@ -188,47 +247,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="p-port_works03" class="p-port_block">
-                            <h3 class="c-head_3">旧TCW トミザワクリエイティブワークス</h3>
-                            <div class="p-port_inner">
-                                <div class="p-port_img">
-                                    <div class="p-port_img_in">
-                                        <a href="/works/detail04.php">
-                                            <img src="../image/t-cont03.jpg" alt="TCW トミザワクリエイティブワークス">
-                                            <div class="shadow-box"><span>Check</span></div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="p-port_des">
-                                    <p>一番最初にフリーランスを始めたときに構築したサイトです。</p>
-                                    <p>現在御覧頂いているページもこのサイトのものであり、自身のポートフォリオ、フリーランスとしてのプロモーションのために制作いたしました。</p>
-                                    <div class="c-btn">
-                                        <p><a href="/works/detail04.php">詳しくはコチラ</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="p-port_works04" class="p-port_block">
-                            <h3 class="c-head_3">引用・出典ジェネレーター</h3>
-                            <div class="p-port_inner">
-                                <div class="p-port_img">
-                                    <div class="p-port_img_in">
-                                        <a href="/works/detail03.php">
-                                            <img src="../image/t-cont04.jpg" alt="引用・出典ジェネレーター">
-                                            <div class="shadow-box"><span>Check</span></div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="p-port_des">
-                                    <p>論文などの出典リストを誰でも簡単に生成できるツールを開発しました。</p>
-                                    <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
-                                    <div class="c-btn">
-                                        <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- </div>
+                        </div> -->
+
+                        <!-- </div>
                         <div id="p-port_works-others" class="p-port_block">
                             <h3 class="c-head_3">テストサイト（コーディングのみ 2019）</h3>
                             <div class="p-others_inner">
@@ -265,7 +286,6 @@
                                 </div>
                             </div>
                         </div> -->
-                        </div>
                     </div>
 
 

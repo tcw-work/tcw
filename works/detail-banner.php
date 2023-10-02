@@ -150,12 +150,12 @@
                             </div>
                         </div>
                         <div id="p-port_works" class="p-port_block">
-                            <h3 class="c-head_3">引用・出典ジェネレーター</h3>
+                            <h3 class="c-head_3">Source Pack</h3>
                             <div class="p-port_inner">
                                 <div class="p-port_img">
                                     <div class="p-port_img_in">
                                         <a href="/works/detail03.php">
-                                            <img src="../image/t-cont04.jpg" alt="引用・出典ジェネレーター">
+                                            <img src="../image/t-cont04.jpg" alt="Source Pack">
                                             <div class="shadow-box"><span>Check</span></div>
                                         </a>
                                     </div>
