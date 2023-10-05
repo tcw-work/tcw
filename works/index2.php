@@ -87,6 +87,7 @@
                                     <p>基本的なマークアップ言語はもちろん、JavaScriptを用いたテクニカルなサイト構築を始め、Figma、XDを使用したUIUX領域の業務にも部分的に携わっております。
                                     </p>
                                     <p>これまでWeb制作会社、SES企業、フィンテック企業など様々な業種で主にフロントエンドエンジニアとして各サービスの開発に参加してきました。</p>
+                                    <p>現在は株式会社efitにジョインし、自社サービス「QUOREA」のアップデートを行っております。</p>
                                 </div>
                                 <div class="skill-box">
                                     <ul>
@@ -129,7 +130,7 @@
                                 <p>もしWebサイトの制作、業務提携パートナーをお探しでしたら、是非お声かけ下さい。業務範囲に関しましては、下記のページをご参考にしていただけますと幸いです。</p>
                             </div>
                         </div>
-                        <!-- <div id="p-port_works05" class="p-port_block">
+                        <div id="p-port_works05" class="p-port_block">
                             <h3 class="c-head_3">QUOREA</h3>
                             <div class="p-port_inner">
                                 <div class="p-port_img">
@@ -148,7 +149,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div id="p-port_works05" class="p-port_block">
                             <h3 class="c-head_3">TCW Ver.2.0</h3>
                             <div class="p-port_inner">
