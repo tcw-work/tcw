@@ -78,6 +78,7 @@
                     <div class="p-port_add">
                         <div class="p-work-des">
                             <p>こちらは過去に制作したサイトをまとめたポートフォリオ（実績）ページとなります。詳細をご確認される場合は、「詳しくはこちら」ボタンをクリックしてください。</p>
+                            <p><b class="bold">※現在案件を絶賛募集中です。</b>こちらでスキル感などをご確認の上、ぜひご連絡ください。</p>
                         </div>
                         <div id="p-port_works02" class="p-port_block profile">
                             <h3 class="c-head_3">Profile</h3>
