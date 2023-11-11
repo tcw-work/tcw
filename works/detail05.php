@@ -175,6 +175,27 @@
                         </div>
                     </div> -->
                     <div id="p-port_works" class="p-port_block">
+                        <h3 class="c-head_3">Source Pack</h3>
+                        <div class="p-port_inner">
+                            <div class="p-port_img">
+                                <div class="p-port_img_in">
+                                    <a href="/works/detail03.php">
+                                        <img src="../image/t-cont04.jpg" alt="Source Pack">
+                                        <div class="shadow-box"><span>Check</span></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-port_des">
+                                <p>論文などの出典リストを誰でも簡単に生成できるツールをPHPとVue.jsで開発しました。</p>
+                                <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
+                                <a href=""></a>
+                                <div class="c-btn">
+                                    <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="p-port_works" class="p-port_block">
                         <h3 class="c-head_3">旧TCW</h3>
                         <div class="p-port_inner">
                             <div class="p-port_img">
@@ -190,27 +211,6 @@
                                 <p>今現在ご覧いただいているこのページと同サイトであり、シンプルかつモダンな雰囲気を意識した作りとなっております。</p>
                                 <div class="c-btn">
                                     <p><a href="/works/detail04.php">詳しくはコチラ</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="p-port_works" class="p-port_block">
-                        <h3 class="c-head_3">Source Pack</h3>
-                        <div class="p-port_inner">
-                            <div class="p-port_img">
-                                <div class="p-port_img_in">
-                                    <a href="/works/detail03.php">
-                                        <img src="../image/t-cont04.jpg" alt="Source Pack">
-                                        <div class="shadow-box"><span>Check</span></div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="p-port_des">
-                                <p>論文などの出典リストを誰でも簡単に生成できるツールを開発しました。</p>
-                                <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
-                                <a href=""></a>
-                                <div class="c-btn">
-                                    <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
                                 </div>
                             </div>
                         </div>

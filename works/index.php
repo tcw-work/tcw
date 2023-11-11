@@ -77,7 +77,7 @@
                     <h2 class="c-head_2">Works</h2>
                     <div class="p-port_add">
                         <div class="p-work-des">
-                            <p>こちらは過去に制作したサイトをまとめたポートフォリオ（実績）ページとなります。詳細をご確認される場合は、「詳しくはこちら」ボタンをクリックしてください。</p>
+                            <p>こちらは過去に個人開発したサービスをまとめたポートフォリオ（実績）ページとなります。詳細をご確認される場合は、「詳しくはこちら」ボタンをクリックしてください。</p>
                             <p><b class="bold">※現在案件を絶賛募集中です。</b>こちらでスキル感などをご確認の上、ぜひご連絡ください。</p>
                         </div>
                         <div id="p-port_works02" class="p-port_block profile">
@@ -95,6 +95,7 @@
                                         <li>・HTML5</li>
                                         <li>・CSS/SCSS、Bootstrap</li>
                                         <li>・Javascript、jQuery</li>
+                                        <li>・Vue.js</li>
                                         <li>・Git、Sourcetree/Subversion</li>
                                         <li>・Photoshop、XD、Figma</li>
                                         <li>・WordPress（フロント・システム両方）</li>
@@ -107,6 +108,7 @@
                                         <li class="s-01">● バックエンド系経験</li>
                                         <li>・PHPでのサイト構築</li>
                                         <li>・Xampp、Mysqlを使ったDB操作</li>
+                                        <li>・Hub Spot CMS</li>
                                         <li>・Ajax、axiosでの非同期通信</li>
                                         <li>・LINE APIと自社サービス連携</li>
                                         <li>・Firebase Cloud Message（プッシュ通知）</li>
@@ -124,6 +126,7 @@
                                         <li>・Wordpressを用いた動的サイト（テーマ）作成</li>
                                         <li>・個人事業主様のホームページ作成（デザイン含む）</li>
                                         <li>・某大手通信系企業のオウンドメディア運用</li>
+                                        <li>・ツール・サービスの個人開発</li>
                                     </ul>
                                 </div>
 
@@ -170,6 +173,26 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="p-port_works04" class="p-port_block">
+                            <h3 class="c-head_3">Source Pack</h3>
+                            <div class="p-port_inner">
+                                <div class="p-port_img">
+                                    <div class="p-port_img_in">
+                                        <a href="/works/detail03.php">
+                                            <img src="../image/t-cont04.jpg" alt="Source Pack">
+                                            <div class="shadow-box"><span>Check</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-port_des">
+                                    <p>論文などの出典リストを誰でも簡単に生成できるツールをPHPとVue.jsで開発しました。</p>
+                                    <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
+                                    <div class="c-btn">
+                                        <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div id="p-port_works03" class="p-port_block">
                             <h3 class="c-head_3">旧TCW</h3>
                             <div class="p-port_inner">
@@ -186,26 +209,6 @@
                                     <p>現在御覧頂いているページもこのサイトのものであり、自身のポートフォリオ、フリーランスとしてのプロモーションのために制作いたしました。</p>
                                     <div class="c-btn">
                                         <p><a href="/works/detail04.php">詳しくはコチラ</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="p-port_works04" class="p-port_block">
-                            <h3 class="c-head_3">Source Pack（システムのみ）</h3>
-                            <div class="p-port_inner">
-                                <div class="p-port_img">
-                                    <div class="p-port_img_in">
-                                        <a href="/works/detail03.php">
-                                            <img src="../image/t-cont04.jpg" alt="Source Pack">
-                                            <div class="shadow-box"><span>Check</span></div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="p-port_des">
-                                    <p>論文などの出典リストを誰でも簡単に生成できるツールを開発しました。</p>
-                                    <p>こちらは一部未完成な部分がありますが、一般的な機能は既に利用できる仕様となっています。</p>
-                                    <div class="c-btn">
-                                        <p><a href="/works/detail03.php">詳しくはコチラ</a></p>
                                     </div>
                                 </div>
                             </div>

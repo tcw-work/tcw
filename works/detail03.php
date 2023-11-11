@@ -72,14 +72,13 @@
             <div class="f-wrap-inner">
 
                 <div id="p-port_detail">
-                    <h2 class="c-head_2">Source Pack（システムのみ）</h2>
+                    <h2 class="c-head_2">Source Pack</h2>
                     <div class="p-detail_pic">
                         <img src="../image/detail-mv03.jpg" alt="Source Pack MV">
                     </div>
                     <div class="p-content_block">
                         <h3 class="c-head_3">Concept</h3>
                         <div class="p-detail-des">
-                            <p>※こちらフロント部分の実装は現在作業中ですので、ベータ版としてお使いください。</p>
                             <p>学術論文を作成する際に、参考文献から引用・出典リストを誰でも自動で簡単に作成するためのツールを開発しました。</p>
                             <p>学術系の引用や出典リストの作成には、意外と細かなルールがあり、項目の並び順がその都度変化します。そのため、論文やレポートを作成する際に、逐一調べながら出典リストを書いている学生も多いのです。
                             </p>
@@ -97,12 +96,12 @@
                         </div>
                     </div>
                     <div class="p-content_block">
-                        <h3 class="c-head_3">Coding（フロント未反映）</h3>
+                        <h3 class="c-head_3">Coding</h3>
                         <div class="p-detail-des">
-                            <p>フロント部分のコーディングは現在制作中です。</p>
-                            <p>今回はシステム面に力を入れたため、コーディングは従来通り、基本に忠実な設計となる予定です。</p>
-                            <p>先駆けて、Firebaseを介したプッシュ通知、PWAによるサイトのアプリ化を行いました。</p>
-                            <p>また、ユーザービリティ向上のため、PHPの非同期通信としてAjaxでの処理を行い、よりインタラクティブな作りへと進化しました。</p>
+                            <p>基本に忠実なコーディングを行いつつ、Vue.jsを用いてUIを構築しました。</p>
+                            <p>また、Firebaseを介したプッシュ通知、PWAによるサイトのアプリ化に加え、ユーザービリティ向上のため、PHPの非同期通信としてAjaxでの処理を行いました。
+                            </p>
+                            <p>これらの実装によって、よりインタラクティブな作りとなりました。</p>
                             <p>各出典ジェネレーターはJavaScriptを用いてロジックが組まれており、出典を作成するための各パターンに対応しております。</p>
                         </div>
                     </div>
@@ -112,7 +111,7 @@
                             <p>デザインはFigmaを用いて制作しました。</p>
                             <p>予めパーツをコンポーネント化し、使い回せる各要素に当てはめて効率化を図りました。</p>
                             <p>また、Googleの検索窓のようにシンプルかつ機能重視なサイト設計となっており、ユーザーがストレスなく使えるように無駄な要素を削ぎ落としました。</p>
-                            <p>デザインのモチーフとして「ニューモモフィズム」を全体的に反映しており、より立体的で直感的な操作が可能なデザインとなる予定です。</p>
+                            <p>デザインのモチーフとして「ニューモフィズム」を全体的に反映しており、より立体的で直感的な操作が可能なデザインとなる予定です。</p>
                         </div>
                     </div>
                     <!-- <div class="p-content_block">
@@ -165,14 +164,14 @@
                             <li>
                                 <dl>
                                     <dt>Release Date</dt>
-                                    <dd class="p-_post_date">2023</dd>
+                                    <dd class="p-_post_date">2023/11/11</dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>URL</dt>
-                                    <dd class="p-_post_url"><a href="https://codetest01.t-creative-works.com/"
-                                            target="_blank">https://codetest01.t-creative-works.com/</a>
+                                    <dd class="p-_post_url"><a href="https://sourcepack.t-creative-works.com/"
+                                            target="_blank">https://sourcepack.t-creative-works.com/</a>
                                     </dd>
                                 </dl>
                             </li>
