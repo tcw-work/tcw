@@ -106,10 +106,10 @@
                     <ul class="drawer-menu">
                         <li><a class="drawer-brand" href="/works/">Works</a></li>
                         <li><a class="drawer-menu-item" href="/works/detail01.php"><span>Magnific-Japan</span></a></li>
-                        <li><a class="drawer-menu-item" href="/works/detail02.php"><span>テンツーケア</span></a></li>
+                        <!-- <li><a class="drawer-menu-item" href="/works/detail02.php"><span>テンツーケア</span></a></li> -->
                         <li><a class="drawer-menu-item" href="/works/detail04.php"><span>TCW トミザワクリエイティブワークス</span></a>
                         </li>
-                        <li><a class="drawer-menu-item" href="/works/detail03.php"><span>出典・引用ジェネレーター</span></a></li>
+                        <li><a class="drawer-menu-item" href="/works/detail03.php"><span>Source Pack</span></a></li>
                         <li><a class="drawer-menu-item" href="/works/#p-port_works-others"><span>その他テストサイト</span></a>
                         </li>
                     </ul>
