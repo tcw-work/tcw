@@ -95,6 +95,7 @@
                                         <li>・HTML5</li>
                                         <li>・CSS/SCSS、Bootstrap</li>
                                         <li>・Javascript、jQuery</li>
+                                        <li>・JSを用いたモーショングラフィックスの作成</li>
                                         <li>・Vue.js</li>
                                         <li>・Git、Sourcetree/Subversion</li>
                                         <li>・Photoshop、XD、Figma</li>
@@ -107,6 +108,7 @@
                                     <ul>
                                         <li class="s-01">● バックエンド系経験</li>
                                         <li>・PHPでのサイト構築</li>
+                                        <li>・テーブル定義書などシステム設計</li>
                                         <li>・Xampp、Mysqlを使ったDB操作</li>
                                         <li>・Hub Spot CMS</li>
                                         <li>・Ajax、axiosでの非同期通信</li>
@@ -119,15 +121,21 @@
                                 </div>
                                 <div class="skill-box">
                                     <ul>
-                                        <li class="s-01">● 主な業務経験</li>
-                                        <li>・制作会社での大手メーカーサイト制作</li>
-                                        <li>・自社サービスのフロント、UIUX担当</li>
-                                        <li>・某コンサートサイトのコーディング</li>
-                                        <li>・Wordpressを用いた動的サイト（テーマ）作成</li>
-                                        <li>・個人事業主様のホームページ作成（デザイン含む）</li>
-                                        <li>・某大手通信系企業のオウンドメディア運用</li>
-                                        <li>・ツール・サービスの個人開発</li>
+                                        <li class="s-01">● 主なデザイン経験</li>
+                                        <li>・Figmaを用いたサイト設計・デザイン</li>
+										<li>・XDを使ったページの改修とCVRの改善</li>
+                                   		<li>・Photoshopを用いたメインビジュアルの作成</li>
                                     </ul>
+									<ul>
+										<li class="s-01">● 主な業務経験</li>
+										<li>・制作会社での大手メーカーサイト制作</li>
+										<li>・自社サービスのフロント、UIUX担当</li>
+										<li>・某コンサートサイトのコーディング</li>
+										<li>・Wordpressを用いた動的サイト（テーマ）作成</li>
+										<li>・個人事業主様のホームページ作成（デザイン含む）</li>
+										<li>・某大手通信系企業のオウンドメディア運用</li>
+										<li>・ツール・サービスの個人開発</li>
+									</ul>
                                 </div>
 
                                 <p>もしWebサイトの制作、業務提携パートナーをお探しでしたら、是非お声かけ下さい。業務範囲に関しましては、下記のページをご参考にしていただけますと幸いです。</p>
