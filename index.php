@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>TCW トミザワ クリエイティブ ワークス</title>
+    <title>TCW</title>
     <meta name="description"
-        content="TCW（トミザワ クリエイティブ ワークス）は、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
-    <meta name="keyword" content="tcw,トミザワクリエイティブワークス,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
+        content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
+    <meta name="keyword" content="tcw,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--        particles.js-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js?date=202108028">
@@ -37,11 +37,11 @@
     <!--    ogp-->
     <meta property="og:image" content="https://t-creative-works.com/image/tcw_ogp.jpg">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="TCW トミザワ・クリエイティブワークス">
+    <meta property="og:title" content="TCW">
     <meta property="og:url" content="https://t-creative-works.com/">
-    <meta property="og:site_name" content="TCW トミザワ・クリエイティブワークス">
+    <meta property="og:site_name" content="TCW">
     <meta property="og:description"
-        content="TCW（トミザワ・クリエイティブワークス）は、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
+        content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
     <meta property="og:locale" content="ja_JP">
     <meta property="”fb:app_id”" content="”App-ID(15文字の半角数字)”">
 
@@ -107,7 +107,7 @@
                         <li><a class="drawer-brand" href="/works/">Works</a></li>
                         <li><a class="drawer-menu-item" href="/works/detail01.php"><span>Magnific-Japan</span></a></li>
                         <!-- <li><a class="drawer-menu-item" href="/works/detail02.php"><span>テンツーケア</span></a></li> -->
-                        <li><a class="drawer-menu-item" href="/works/detail04.php"><span>TCW トミザワクリエイティブワークス</span></a>
+                        <li><a class="drawer-menu-item" href="/works/detail04.php"><span>TCW</span></a>
                         </li>
                         <li><a class="drawer-menu-item" href="/works/detail03.php"><span>Source Pack</span></a></li>
                         <li><a class="drawer-menu-item" href="/works/#p-port_works-others"><span>その他テストサイト</span></a>
@@ -156,7 +156,7 @@
                         <div class="p-about_inner">
                             <h2 class="c-head_2">ABOUT</h2>
                             <p>当サイトをご覧いただき、誠にありがとうございます。</p>
-                            <p>TCW（トミザワ・クリエイティブワークス）では、お客様に寄り添ったWebサイト・ホームページの制作を行っております。企業様や個人事業主様からのご依頼はもちろん、制作会社様からの業務委託なども随時承っております。
+                            <p>TCWでは、お客様に寄り添ったWebサイト・ホームページの制作を行っております。企業様や個人事業主様からのご依頼はもちろん、制作会社様からの業務委託なども随時承っております。
                             </p>
                             <p>「サイトをリニューアルしたい」、「コーディングのみお願いしたい」、「運用をお任せしたい」…このようなご要望に対しても柔軟に対応することが可能です。</p>
                             <p>また、本サイトにはサービス概要ページや、制作物を載せた実績ページ等もご用意させていただいておりますので、是非そちらもご覧ください</p>

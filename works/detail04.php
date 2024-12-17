@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>TCW トミザワ・クリエイティブ ワークス ポートフォリオ「TCW トミザワクリエイティブワークス」解説ページ</title>
+    <title>TCW ポートフォリオ「TCW」解説ページ</title>
     <meta name="description"
-        content="TCW（トミザワ クリエイティブ ワークス）は、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
-    <meta name="keyword" content="tcw,トミザワクリエイティブワークス,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
+        content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
+    <meta name="keyword" content="tcw,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- CSS定義 -->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -33,11 +33,11 @@
     <!--    ogp-->
     <meta property="og:image" content="https://t-creative-works.com/image/tcw_ogp.jpg">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="TCW トミザワ・クリエイティブワークス">
+    <meta property="og:title" content="TCW">
     <meta property="og:url" content="https://t-creative-works.com/">
-    <meta property="og:site_name" content="TCW トミザワ・クリエイティブワークス">
+    <meta property="og:site_name" content="TCW">
     <meta property="og:description"
-        content="TCW（トミザワ・クリエイティブワークス）は、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
+        content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
     <meta property="og:locale" content="ja_JP">
     <meta property="”fb:app_id”" content="”App-ID(15文字の半角数字)”">
 
