@@ -74,6 +74,7 @@ if(empty ($_POST['c_name']) or empty ($_POST['c_address']) or empty ($_POST['c_c
     <!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>TCW お問い合わせ確認ページ</title>
+<meta name="robots" content="noindex">
     <meta name="description"
         content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
     <meta name="keyword" content="tcw,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">

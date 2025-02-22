@@ -7,6 +7,7 @@
     <!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>TCW ポートフォリオページ</title>
+<meta name="robots" content="noindex">
     <meta name="description"
         content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
     <meta name="keyword" content="tcw,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
@@ -141,26 +142,6 @@
                                 <p>もしWebサイトの制作、業務提携パートナーをお探しでしたら、是非お声かけ下さい。業務範囲に関しましては、下記のページをご参考にしていただけますと幸いです。</p>
                             </div>
                         </div>
-                        <!-- <div id="p-port_works05" class="p-port_block">
-                            <h3 class="c-head_3">QUOREA</h3>
-                            <div class="p-port_inner">
-                                <div class="p-port_img">
-                                    <div class="p-port_img_in">
-                                        <a href="/works/detail06.php">
-                                            <img src="../image/t-cont06.jpg" alt="QUOREA">
-                                            <div class="shadow-box"><span>Check</span></div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="p-port_des">
-                                    <p>現在私もフロントエンドエンジニアとして参加している株式会社efitにて、自社サービス「QUOREA」のアップデートを行っています。</p>
-                                    <p>コーディングを中心に、必要に応じてUIUXにフォーカスしたページデザインなども担当しています。</p>
-                                    <div class="c-btn">
-                                        <p><a href="/works/detail06.php">詳しくはコチラ</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
                         <div id="p-port_works07" class="p-port_block">
                             <h3 class="c-head_3">里親探しサービス（開発中）</h3>
                             <div class="p-port_inner">

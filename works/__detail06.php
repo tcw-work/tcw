@@ -7,6 +7,7 @@
     <!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>TCW ポートフォリオ「QUOREA」解説ページ</title>
+<meta name="robots" content="noindex">
     <meta name="description"
         content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
     <meta name="keyword" content="tcw,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
@@ -70,77 +71,6 @@
     <main class="p-p_portfolio p-p_works p-p_detail">
         <div class="f-wrap">
             <div class="f-wrap-inner">
-
-                <div id="p-port_detail">
-                    <h2 class="c-head_2">QUOREA</h2>
-                    <div class="p-detail_pic">
-                        <img src="../image/detail-mv06.jpg" alt="">
-                    </div>
-                    <div class="p-content_block">
-                        <h3 class="c-head_3">Summary</h3>
-                        <div class="p-detail-des">
-                            <p>現在株式会社efitの展開する「QUOREA」にて、フロントエンドエンジニアとしてサービスのアップデートを行っております。</p>
-                            <p>多種多様なAIロボットを選択していただき、そのロボットの特色を活かした自動売買での投資を実現できます。</p>
-                        </div>
-                    </div>
-                    <div class="p-content_block">
-                        <h3 class="c-head_3">Coding</h3>
-                        <div class="p-detail-des">
-                            <p>主にフロント部分のコーディングを担当しており、システムと連携しながら業務を行っています。</p>
-                            <p>具体例としては、トップ（グランドページ）、オンボーディングの改修などを新規で行い、日々CVRの改善に努めております。</p>
-                            <p>その過程で新たな技術などを取り入れたり、提案しながら、会社とともにスキルアップを図っています。</p>
-                        </div>
-                    </div>
-                    <div class="p-content_block">
-                        <h3 class="c-head_3">Design</h3>
-                        <div class="p-detail-des">
-                            <p>UIUXを考慮しながら一部ページデザインなども兼業で行っています。</p>
-                            <p>XDやFigmaなどのAdobeソフトを駆使し、デザインの提案なども行います。</p>
-                        </div>
-                    </div>
-                    <div class="p-content_block">
-                        <h3 class="c-head_3">Point</h3>
-                        <div class="p-detail-point">
-                            <ul>
-                                <li>
-                                    <div class="p-point_box">
-                                        <div class="p-box_pic">
-                                            <p>Technique</p>
-                                            <img src="../image/detail-point06-01.jpg" alt="">
-                                        </div>
-                                        <p class="p-box_des">フロント部分の実装全般を担当。新規ページや改修などを行う。</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="p-point_box">
-                                        <div class="p-box_pic">
-                                            <p>Design</p>
-                                            <img src="../image/detail-point06-02.jpg" alt="">
-                                        </div>
-                                        <p class="p-box_des">UIUX部分を兼業で担当。Figma、XDなどのデザインソフトにも対応。</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="p-content_infor">
-                        <ul>
-                            <li>
-                                <dl>
-                                    <dt>Participation Date</dt>
-                                    <dd class="p-_post_date">2021.12.29～</dd>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <dt>URL</dt>
-                                    <dd class="p-_post_url"><a href="https://quorea.jp/"
-                                            target="_blank">https://quorea.jp/</a></dd>
-                                </dl>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
                 <div id="p-port_card">
                     <h2 class="c-head_2">Other Works</h2>

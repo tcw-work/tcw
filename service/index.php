@@ -7,6 +7,7 @@
     <!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>TCW サービスページ</title>
+<meta name="robots" content="noindex">
     <meta name="description"
         content="TCWは、webサイト、ホームページの制作を随時承っております。個人で事業を営むクライアント様、一部制作をご依頼したい制作会社様からの業務等もご対応致します。フリーランスとして柔軟なご対応が可能ですので、お気軽にご連絡ください。">
     <meta name="keyword" content="tcw,web制作,ホームページ作成,webデザイン,webコーディング,保守運用,フロントエンドエンジニア,フリーランス">
@@ -256,11 +257,6 @@
                             <p class="p-others_des">
                                 このサイトでは過去に作成した制作物を掲載しております。Web制作のご依頼をご検討中の方は、下記のサイトを参考にしていただけますと幸いです。</p>
                             <div class="p-others_inner">
-                                <!-- <div class="p-others_01">
-                                    <a href="/works/detail06.php">
-                                        <p><img src="../image/t-cont06.jpg" alt="QUOREA"><span>QUOREA</span></p>
-                                    </a>
-                                </div> -->
                                 <div class="p-others_01">
                                     <a href="/works/detail05.php">
                                         <p><img src="../image/t-cont05.jpg" alt="TCW"><span>TCW Ver.2.0</span></p>
